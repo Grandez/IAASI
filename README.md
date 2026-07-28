@@ -1,5 +1,21 @@
 # Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)
 
+> [!IMPORTANT]
+> ## 🚧 Work in Progress
+>
+> Este proyecto se encuentra en una fase temprana de investigación y construcción.
+>
+> La metodología aquí descrita **no está terminada**. Está siendo desarrollada de forma iterativa a partir de laboratorios, casos reales, documentación técnica y validación continua.
+>
+> El objetivo del proyecto no es únicamente aprender nuevas tecnologías, sino **definir una metodología de Ingeniería y Arquitectura Asistidas por Sistemas Inteligentes**, fundamentada en la práctica y en la evidencia obtenida durante su desarrollo.
+>
+> Las ideas, patrones y procesos publicados podrán evolucionar conforme avance la investigación.
+>
+>
+> **Las contribuciones, críticas constructivas y debates técnicos son bienvenidos.**
+>
+> Si compartes esta visión y te interesa participar en la definición de esta metodología, estas invitado.
+
 ## Introducción
 
 La Inteligencia Artificial está transformando la forma en que diseñamos, desarrollamos y mantenemos sistemas software. Sin embargo, la mayor parte de la formación actual se centra en aprender herramientas concretas o en dominar tecnologías que evolucionan constantemente.
