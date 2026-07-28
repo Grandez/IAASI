@@ -110,7 +110,7 @@ Este proyecto se desarrolla sobre un ecosistema de ingeniería en el que cada he
 | Área | Herramientas |
 |------|--------------|
 | Lenguajes | Java · Python · C++ · Bash · R (Documentación) |
-| IDE | VS Code |
+| IDEs | VS Code · RStudio (Documentación) |
 | Documentación | Quarto · Markdown |
 | Publicación | GitHub · netlify |
 | Diagramas | PlantUML |
