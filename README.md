@@ -1,7 +1,5 @@
 # Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)
 
-# Ingeniería y Arquitectura Asistidas por Sistemas Inteligentes
-
 ## Introducción
 
 La Inteligencia Artificial está transformando la forma en que diseñamos, desarrollamos y mantenemos sistemas software. Sin embargo, la mayor parte de la formación actual se centra en aprender herramientas concretas o en dominar tecnologías que evolucionan constantemente.
