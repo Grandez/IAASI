@@ -101,3 +101,23 @@ Se dispondrá de:
 
 Ese será el verdadero resultado del proyecto.
 
+---
+
+## Ecosistema
+
+Este proyecto se desarrolla sobre un ecosistema de ingeniería en el que cada herramienta aporta capacidades específicas dentro del proceso de diseño, desarrollo, experimentación y documentación.
+
+| Área | Herramientas |
+|------|--------------|
+| Lenguajes | Java · Python · C++ · Bash · R (Documentación) |
+| IDE | VS Code |
+| Documentación | Quarto · Markdown |
+| Publicación | GitHub · netlify |
+| Diagramas | PlantUML |
+| Bases de datos | MariaDB (SQL) |
+| Entornos reproducibles | Docker |
+| Laboratorios | VirtualBox · Hyper-v |
+| Sistemas Inteligentes | ChatGPT · Claude · Ollama · Copilot · Continue |
+| Automatización | MCP · Agentes · Skills · Open Specifications *(según evolucione la investigación)* |
+
+
