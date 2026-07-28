@@ -36,14 +36,20 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
+# Temporary files
+*.bak
+*.tmp
+
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
 
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+/.quarto/
+
+# Output
+_site/

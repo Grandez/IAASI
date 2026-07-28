@@ -1,0 +1,69 @@
+---
+title: "Ingeniería y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)"
+author: Javier G. Grandez
+---
+
+# Bienvenido
+
+**IAASI** es un proyecto de investigación aplicada cuyo objetivo es desarrollar una metodología para integrar Sistemas Inteligentes dentro de los procesos de Ingeniería y Arquitectura de Software.
+
+La metodología no parte de hipótesis preconcebidas.
+
+Se construye mediante el estudio, la experimentación, la documentación y el análisis continuo de los resultados obtenidos.
+
+---
+
+## ¿Qué encontrarás aquí?
+
+Este proyecto recopila:
+
+- Laboratorios y experimentos.
+- Estudios de herramientas y tecnologías.
+- Patrones identificados durante la investigación.
+- Decisiones de arquitectura.
+- Casos prácticos.
+- Reflexiones sobre la integración de Sistemas Inteligentes en la Ingeniería del Software.
+
+---
+
+## Filosofía
+
+No pretendemos demostrar una idea.
+
+Pretendemos descubrirla.
+
+Cada laboratorio genera conocimiento.
+
+Cada resultado plantea nuevas preguntas.
+
+Con el tiempo, los patrones observados darán lugar a una metodología coherente, práctica y basada en la experiencia.
+
+---
+
+## Estado del proyecto
+
+> 🚧 **Work in Progress**
+
+La investigación acaba de comenzar.
+
+La estructura, el contenido y la propia metodología evolucionarán conforme avance el proyecto.
+
+Las contribuciones, críticas constructivas y debates técnicos serán siempre bienvenidos.
+
+---
+
+## Ecosistema de Ingeniería
+
+Este proyecto se desarrolla sobre un ecosistema de herramientas donde cada una aporta capacidades específicas dentro del proceso de ingeniería.
+
+- Desarrollo
+- Documentación
+- Experimentación
+- Automatización
+- Sistemas Inteligentes
+
+Las herramientas evolucionarán junto con el proyecto. La metodología no dependerá de ninguna de ellas, sino de la forma en que se integran para resolver problemas de ingeniería.
+
+---
+
+> *La IA no sustituye a la Ingeniería. La potencia*
