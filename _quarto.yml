@@ -2,20 +2,35 @@ project:
   type: website
 
 website:
-  title: "iaasi2"
+  title: "Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)"
+
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio
+      - href: docs/chapters/01-intro/index.qmd
+        text: Introducción
 
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Introducción"
+        href: docs/chapters/01-intro/index.qmd
+        contents:
+          - docs/chapters/01-intro/index.qmd
+          - docs/chapters/01-intro/01-imperativa.qmd
+          - docs/chapters/01-intro/02-funcional.qmd
+          - docs/chapters/01-intro/03-natural.qmd
+          - docs/chapters/01-intro/04-ia.qmd
+          - docs/chapters/01-intro/05-llm.qmd          
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: cosmo
     toc: true
-
-
-
+    number-sections: true
+    number-depth: 3
+    
+execute:
+  freeze: auto
+  

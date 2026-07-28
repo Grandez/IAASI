@@ -1,0 +1,216 @@
+---
+title: "Inteligencia Artificial"
+---
+
+# La evolución de la Inteligencia Artificial: del conocimiento escrito al conocimiento aprendido
+
+La historia de la Inteligencia Artificial no comenzó con ChatGPT, ni con los Large Language Models, ni siquiera con Internet.
+
+Comenzó mucho antes.
+
+Desde los primeros años de la informática surgió una pregunta que marcaría varias generaciones de investigadores.
+
+**¿Puede una máquina razonar?**
+
+Responder a esta pregunta dio lugar a múltiples enfoques, algunos extraordinariamente exitosos y otros que terminaron demostrando sus limitaciones.
+
+Comprender esta evolución resulta fundamental para entender por qué los Large Language Models representan un cambio de paradigma y no simplemente una nueva tecnología.
+
+## Los primeros años: la Inteligencia Artificial simbólica
+
+Durante las décadas de 1950 y 1960 la mayoría de los investigadores compartían una misma idea.
+
+La inteligencia podía representarse mediante símbolos y reglas lógicas.
+
+Si un ser humano era capaz de explicar cómo razonaba, entonces un ordenador podría reproducir ese razonamiento ejecutando las mismas reglas.
+
+La inteligencia se concebía como un enorme sistema de deducción lógica.
+
+Bastaría con representar correctamente el conocimiento.
+
+## Lisp: el lenguaje de la Inteligencia Artificial
+
+En 1958 John McCarthy desarrolló Lisp, uno de los lenguajes más influyentes de la historia de la informática.
+
+Lisp fue diseñado específicamente para investigar problemas relacionados con la Inteligencia Artificial.
+
+A diferencia de los lenguajes imperativos tradicionales, Lisp permitía manipular programas como si fueran datos, construir estructuras simbólicas complejas y desarrollar algoritmos capaces de razonar sobre conceptos abstractos.
+
+Durante décadas fue el lenguaje predominante en numerosos laboratorios de investigación.
+
+Muchas de las ideas que hoy siguen utilizándose en programación funcional aparecieron por primera vez en Lisp.
+
+## Prolog: la lógica como lenguaje de programación
+
+Pocos años después apareció Prolog.
+
+Su filosofía era radicalmente distinta.
+
+En Prolog el desarrollador no describía un algoritmo.
+
+Describía hechos y reglas lógicas.
+
+Por ejemplo:
+
+```prolog
+padre(juan,pedro).
+padre(pedro,luis).
+
+abuelo(X,Y) :- padre(X,Z), padre(Z,Y).
+```
+
+El programador no implementaba el procedimiento para buscar un abuelo.
+
+Simplemente definía las relaciones existentes.
+
+El propio motor lógico se encargaba de realizar las inferencias necesarias para responder preguntas.
+
+Era uno de los primeros ejemplos de programación declarativa aplicada a la Inteligencia Artificial.
+
+## Los sistemas expertos
+
+Durante los años setenta y ochenta apareció uno de los desarrollos más prometedores de la IA simbólica.
+
+Los sistemas expertos.
+
+La idea parecía brillante.
+
+Si un especialista era capaz de explicar cómo tomaba decisiones, bastaría con convertir ese conocimiento en miles de reglas del tipo:
+
+```text
+SI ocurre A
+Y ocurre B
+ENTONCES concluir C
+```
+
+Sobre esta idea se construyeron sistemas capaces de diagnosticar enfermedades, configurar equipos informáticos, asistir a ingenieros o ayudar en tareas de planificación.
+
+Entre los más conocidos destacan MYCIN, orientado al diagnóstico médico, y XCON, utilizado por Digital Equipment Corporation para configurar sistemas informáticos complejos.
+
+Durante algunos años parecían demostrar que la Inteligencia Artificial estaba prácticamente resuelta.
+
+## El problema de representar el conocimiento
+
+Sin embargo, pronto apareció una dificultad mucho mayor de lo esperado.
+
+El conocimiento humano no es una simple colección de reglas.
+
+Las excepciones son innumerables.
+
+El contexto modifica continuamente el significado de la información.
+
+Nuevos casos obligan a incorporar nuevas reglas.
+
+Las propias reglas terminan entrando en conflicto entre sí.
+
+Cada nueva ampliación incrementaba enormemente la complejidad del sistema.
+
+Mantener miles o cientos de miles de reglas acabó convirtiéndose en una tarea prácticamente imposible.
+
+La inteligencia resultó ser mucho más compleja de representar de lo que inicialmente se había imaginado.
+
+## El invierno de la Inteligencia Artificial
+
+Las enormes expectativas generadas durante los años anteriores terminaron produciendo una profunda decepción.
+
+Muchos proyectos no alcanzaron los resultados prometidos.
+
+La financiación disminuyó.
+
+Numerosos laboratorios cerraron sus líneas de investigación.
+
+Este periodo pasó a conocerse como el **invierno de la Inteligencia Artificial**.
+
+No significó el final de la investigación.
+
+Pero sí supuso el reconocimiento de que el camino seguido hasta entonces presentaba importantes limitaciones.
+
+## Un cambio de perspectiva
+
+A finales del siglo XX comenzó a consolidarse una idea completamente diferente.
+
+Quizá el problema no consistía en escribir mejor las reglas.
+
+Quizá las reglas nunca deberían escribirse manualmente.
+
+En lugar de programar el conocimiento, ¿por qué no permitir que la máquina lo aprendiera directamente a partir de los datos?
+
+Esta sencilla pregunta cambió completamente la dirección de la investigación.
+
+Nacía el aprendizaje automático.
+
+## El aprendizaje automático
+
+En el aprendizaje automático el desarrollador ya no implementa explícitamente todas las reglas del sistema.
+
+Proporciona ejemplos.
+
+Datos.
+
+Casos conocidos.
+
+Y algoritmos capaces de descubrir automáticamente patrones presentes en esa información.
+
+En lugar de escribir:
+
+"Si ocurre A y B entonces responde C"
+
+el ingeniero proporciona miles o millones de ejemplos para que el sistema aprenda por sí mismo las relaciones existentes entre ellos.
+
+El conocimiento deja de escribirse.
+
+Comienza a aprenderse.
+
+## Redes neuronales
+
+Entre las distintas técnicas de aprendizaje automático, las redes neuronales ocupan un lugar muy especial.
+
+Inspiradas de forma muy simplificada en el funcionamiento de las neuronas biológicas, permiten construir modelos capaces de aprender relaciones extremadamente complejas entre grandes cantidades de datos.
+
+Durante muchos años las redes neuronales ofrecieron resultados limitados.
+
+La falta de capacidad de cálculo y la escasez de datos impedían entrenar modelos suficientemente grandes.
+
+Como consecuencia, durante bastante tiempo permanecieron relegadas a un segundo plano.
+
+## Deep Learning
+
+La situación cambió radicalmente durante la primera década del siglo XXI.
+
+La aparición de procesadores gráficos (GPU), la disponibilidad de enormes cantidades de datos y los avances en los algoritmos de entrenamiento hicieron posible construir redes neuronales con decenas o incluso cientos de capas.
+
+Nacía el Deep Learning.
+
+Por primera vez era posible entrenar modelos capaces de reconocer imágenes, comprender voz, traducir idiomas y resolver problemas cuya complejidad había resultado inabordable para los sistemas expertos tradicionales.
+
+El conocimiento ya no se programaba.
+
+Emergía del entrenamiento.
+
+## Hacia los Large Language Models
+
+Todos estos avances prepararon el terreno para la siguiente revolución.
+
+Los investigadores dejaron de intentar representar explícitamente el conocimiento humano mediante reglas.
+
+Comenzaron a construir modelos capaces de aprender directamente a partir de cantidades masivas de información.
+
+Ese cambio de filosofía permitió desarrollar una nueva generación de sistemas capaces de trabajar con el lenguaje natural de una forma hasta entonces inimaginable.
+
+Los Large Language Models representan la culminación, al menos por el momento, de esta evolución.
+
+No sustituyen completamente a las técnicas anteriores.
+
+Pero cambian una idea fundamental que había acompañado a la Ingeniería del Software desde sus orígenes.
+
+> **Durante décadas intentamos construir inteligencia escribiendo conocimiento.**
+
+> **Hoy construimos sistemas inteligentes permitiendo que el conocimiento sea aprendido por el propio modelo.**
+
+Este cambio constituye uno de los mayores puntos de inflexión de la historia de la informática.
+
+Comprender cómo ha sido posible requiere estudiar la arquitectura que hizo realidad esta transformación.
+
+Ese será el objetivo del siguiente apartado.
+
+

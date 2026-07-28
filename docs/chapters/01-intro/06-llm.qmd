@@ -1,0 +1,135 @@
+---
+title: "Large Language Models"
+---
+
+# Large Language Models: cuando el conocimiento deja de residir en el programa
+
+En los apartados anteriores hemos recorrido la evolución de los principales paradigmas de programación.
+
+La programación imperativa obligaba al desarrollador a describir de forma precisa el algoritmo que debía ejecutar el ordenador.
+
+La programación funcional elevó el nivel de abstracción, permitiendo expresar transformaciones sobre los datos en lugar de describir todos los detalles del procedimiento.
+
+Finalmente, la programación en lenguaje natural introdujo una idea completamente diferente: expresar el objetivo, el contexto y las restricciones del problema utilizando el propio lenguaje humano.
+
+Sin embargo, esta evolución plantea una pregunta inevitable.
+
+**¿Cómo puede un ordenador comprender un lenguaje tan ambiguo, flexible y lleno de matices como el lenguaje natural?**
+
+La respuesta se encuentra en una nueva generación de sistemas conocidos como **Large Language Models (LLM)**.
+
+## Un modelo entrenado, no programado
+
+Un Large Language Model no es un programa tradicional.
+
+No está formado por miles de reglas escritas manualmente.
+
+No contiene una enorme colección de árboles de decisión.
+
+No implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.
+
+Su funcionamiento es completamente diferente.
+
+Durante un proceso denominado **entrenamiento**, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.
+
+A partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.
+
+El resultado de ese proceso no es un programa lleno de reglas.
+
+Es un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto.
+
+## Mucho más que predecir palabras
+
+Con frecuencia se afirma que un LLM simplemente predice la siguiente palabra.
+
+Aunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.
+
+Durante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.
+
+Aprende relaciones entre conceptos.
+
+Aprende estilos de escritura.
+
+Aprende estructuras sintácticas.
+
+Aprende asociaciones entre ideas.
+
+Aprende patrones presentes en millones de documentos.
+
+Como consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.
+
+El modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas.
+
+## El gran cambio de paradigma
+
+Hasta este momento todos los paradigmas estudiados compartían una característica común.
+
+**El conocimiento residía en el programa.**
+
+El desarrollador analizaba el problema.
+
+Diseñaba un algoritmo.
+
+Lo implementaba mediante un lenguaje de programación.
+
+Y el ordenador ejecutaba exactamente ese conocimiento.
+
+Con los Large Language Models esta situación cambia radicalmente.
+
+> **El conocimiento deja de residir exclusivamente en el programa.**
+>
+> **Una parte fundamental del conocimiento reside ahora en el modelo.**
+
+Esta diferencia transforma profundamente la Ingeniería del Software.
+
+El ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.
+
+Puede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar.
+
+## Del desarrollo al aprovechamiento del conocimiento
+
+Durante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.
+
+Cada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.
+
+Con los Large Language Models aparece una nueva posibilidad.
+
+Una parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.
+
+El trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.
+
+Este cambio no elimina la necesidad de diseñar software.
+
+Al contrario.
+
+Hace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos.
+
+## Un nuevo papel para el ingeniero
+
+Los Large Language Models no sustituyen a la Ingeniería del Software.
+
+Transforman su papel.
+
+El ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.
+
+Lo que cambia es la naturaleza de las herramientas disponibles.
+
+Por primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.
+
+Ya no programa únicamente instrucciones.
+
+Colabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema.
+
+## El siguiente paso
+
+Comprender qué es un Large Language Model constituye únicamente el primer paso.
+
+La siguiente cuestión resulta todavía más interesante.
+
+¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?
+
+Responder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.
+
+En el siguiente apartado analizaremos los **Transformers**, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales.
+
+

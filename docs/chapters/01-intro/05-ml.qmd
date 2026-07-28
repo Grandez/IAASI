@@ -1,0 +1,179 @@
+---
+title: "Machine Learning"
+---
+
+# Machine Learning: cuando las reglas dejan de escribirse
+
+La Inteligencia Artificial simbólica demostró que un ordenador podía razonar utilizando conocimiento representado mediante reglas.
+
+Sin embargo, también puso de manifiesto una limitación fundamental.
+
+Alguien debía escribir todas esas reglas.
+
+Cada excepción.
+
+Cada nueva situación.
+
+Cada modificación del conocimiento.
+
+La calidad del sistema dependía directamente de la capacidad de los expertos para representar explícitamente todo aquello que sabían.
+
+Durante años esta aproximación produjo resultados notables.
+
+Pero a medida que los problemas crecían en complejidad comenzó a surgir una pregunta inevitable.
+
+**¿Y si las reglas no tuvieran que escribirse?**
+
+## Un cambio de paradigma
+
+El aprendizaje automático, conocido como *Machine Learning*, nació precisamente para responder a esa pregunta.
+
+Su propuesta era radicalmente distinta.
+
+En lugar de construir un sistema indicando cómo debía tomar cada decisión, el desarrollador proporcionaba ejemplos.
+
+Muchos ejemplos.
+
+El objetivo ya no consistía en programar el conocimiento.
+
+Consistía en permitir que el sistema lo descubriera por sí mismo.
+
+Por primera vez, el conocimiento dejaba de escribirse manualmente y comenzaba a obtenerse mediante un proceso de aprendizaje.
+
+## Aprender observando
+
+Podemos imaginar cómo aprende un niño a distinguir un perro de un gato.
+
+Normalmente nadie le proporciona una definición matemática.
+
+Simplemente observa cientos de ejemplos.
+
+Con el tiempo aprende a reconocer patrones comunes.
+
+El aprendizaje automático sigue una idea muy parecida.
+
+En lugar de escribir una regla como:
+
+> "Si tiene cuatro patas, cola y ladra, entonces es un perro."
+
+el sistema recibe miles de imágenes etiquetadas.
+
+Algunas corresponden a perros.
+
+Otras a gatos.
+
+Su tarea consiste en descubrir automáticamente qué características permiten diferenciarlos.
+
+Las reglas no desaparecen.
+
+Simplemente dejan de ser escritas por un programador.
+
+Ahora son aprendidas a partir de los datos.
+
+## Del conocimiento explícito al conocimiento implícito
+
+Este cambio representa una de las mayores transformaciones en la historia de la Inteligencia Artificial.
+
+En la IA simbólica el conocimiento era explícito.
+
+Podía leerse.
+
+Modificarse.
+
+Analizarse.
+
+Cada decisión estaba respaldada por una regla concreta.
+
+En Machine Learning ocurre exactamente lo contrario.
+
+El conocimiento queda distribuido dentro del modelo aprendido.
+
+Ya no existe una lista de reglas fácilmente identificable.
+
+Existe un conjunto de parámetros obtenidos durante el entrenamiento que capturan patrones presentes en los datos.
+
+El conocimiento continúa existiendo.
+
+Pero deja de ser directamente visible.
+
+## El nuevo papel del ingeniero
+
+Este cambio también modifica profundamente el trabajo del ingeniero.
+
+Ya no dedica la mayor parte de su esfuerzo a escribir reglas.
+
+Su trabajo consiste ahora en seleccionar los datos adecuados.
+
+Prepararlos.
+
+Eliminar errores.
+
+Elegir las variables relevantes.
+
+Seleccionar el algoritmo más apropiado.
+
+Entrenar el modelo.
+
+Y, sobre todo, evaluar críticamente si el resultado obtenido puede considerarse fiable.
+
+La calidad del sistema deja de depender únicamente del código.
+
+Depende también de la calidad de los datos utilizados para aprender.
+
+## Una nueva forma de delegar
+
+En los capítulos anteriores hemos visto cómo la Ingeniería del Software ha ido delegando progresivamente responsabilidades en las herramientas.
+
+La programación declarativa delegó la estrategia de resolución del problema.
+
+La Inteligencia Artificial simbólica delegó parte del razonamiento lógico.
+
+El aprendizaje automático introduce una nueva forma de delegación.
+
+> **El ingeniero deja de construir las reglas.**
+>
+> **El sistema aprende esas reglas a partir de los datos.**
+
+Este cambio resulta mucho más profundo de lo que puede parecer.
+
+Hasta ese momento, toda decisión tomada por un programa había sido diseñada, directa o indirectamente, por un ser humano.
+
+Con Machine Learning aparece un nuevo escenario.
+
+El comportamiento del sistema comienza a surgir del aprendizaje.
+
+## Los límites del aprendizaje automático
+
+El aprendizaje automático resolvió muchas de las limitaciones de la IA simbólica.
+
+Sin embargo, pronto aparecieron nuevos desafíos.
+
+La calidad del aprendizaje dependía enormemente de las características elegidas por los ingenieros.
+
+En reconocimiento de imágenes, por ejemplo, era necesario decidir manualmente qué aspectos de una imagen debían analizarse.
+
+Bordes.
+
+Texturas.
+
+Formas.
+
+Colores.
+
+El sistema aprendía a partir de esas características, pero seguía dependiendo de que alguien las hubiera diseñado previamente.
+
+La construcción de esas representaciones continuaba siendo responsabilidad del ser humano.
+
+## El siguiente paso
+
+La siguiente revolución consistirá precisamente en eliminar esa dependencia.
+
+Las redes neuronales profundas permitirán que el propio sistema aprenda no solo las reglas, sino también las representaciones más adecuadas de los datos.
+
+Ya no será necesario indicar qué características son importantes.
+
+El modelo aprenderá automáticamente a descubrirlas.
+
+Con este nuevo avance, la delegación de responsabilidades dará un paso más en la evolución de la Ingeniería del Software.
+
+
