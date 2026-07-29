@@ -24,6 +24,17 @@ website:
           - docs/chapters/01-intro/03-natural.qmd
           - docs/chapters/01-intro/04-ia.qmd
           - docs/chapters/01-intro/05-llm.qmd          
+          
+   bibliography:
+      - referencias/historia-ia.bib
+      - referencias/inteligencia-artificial.bib
+      - referencias/historia-software.bib
+      - referencias/ingenieria-software.bib          
+
+   csl: ieee.csl
+   link-citations: true
+   lang: es      
+   
 format:
   html:
     theme: cosmo
