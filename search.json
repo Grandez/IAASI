@@ -35,6 +35,55 @@
     "text": "Este proyecto se desarrolla sobre un ecosistema de herramientas donde cada una aporta capacidades específicas dentro del proceso de ingeniería.\n\nDesarrollo\nDocumentación\nExperimentación\nAutomatización\nSistemas Inteligentes\n\nLas herramientas evolucionarán junto con el proyecto. La metodología no dependerá de ninguna de ellas, sino de la forma en que se integran para resolver problemas de ingeniería.\n\n\nLa IA no sustituye a la Ingeniería. La potencia"
   },
   {
+    "objectID": "docs/chapters/01-intro/06-llm.html",
+    "href": "docs/chapters/01-intro/06-llm.html",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "En los apartados anteriores hemos recorrido la evolución de los principales paradigmas de programación.\nLa programación imperativa obligaba al desarrollador a describir de forma precisa el algoritmo que debía ejecutar el ordenador.\nLa programación funcional elevó el nivel de abstracción, permitiendo expresar transformaciones sobre los datos en lugar de describir todos los detalles del procedimiento.\nFinalmente, la programación en lenguaje natural introdujo una idea completamente diferente: expresar el objetivo, el contexto y las restricciones del problema utilizando el propio lenguaje humano.\nSin embargo, esta evolución plantea una pregunta inevitable.\n¿Cómo puede un ordenador comprender un lenguaje tan ambiguo, flexible y lleno de matices como el lenguaje natural?\nLa respuesta se encuentra en una nueva generación de sistemas conocidos como Large Language Models (LLM).\n\n\nUn Large Language Model no es un programa tradicional.\nNo está formado por miles de reglas escritas manualmente.\nNo contiene una enorme colección de árboles de decisión.\nNo implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.\nSu funcionamiento es completamente diferente.\nDurante un proceso denominado entrenamiento, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.\nA partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.\nEl resultado de ese proceso no es un programa lleno de reglas.\nEs un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto.\n\n\n\nCon frecuencia se afirma que un LLM simplemente predice la siguiente palabra.\nAunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.\nDurante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.\nAprende relaciones entre conceptos.\nAprende estilos de escritura.\nAprende estructuras sintácticas.\nAprende asociaciones entre ideas.\nAprende patrones presentes en millones de documentos.\nComo consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.\nEl modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas.\n\n\n\nHasta este momento todos los paradigmas estudiados compartían una característica común.\nEl conocimiento residía en el programa.\nEl desarrollador analizaba el problema.\nDiseñaba un algoritmo.\nLo implementaba mediante un lenguaje de programación.\nY el ordenador ejecutaba exactamente ese conocimiento.\nCon los Large Language Models esta situación cambia radicalmente.\n\nEl conocimiento deja de residir exclusivamente en el programa.\nUna parte fundamental del conocimiento reside ahora en el modelo.\n\nEsta diferencia transforma profundamente la Ingeniería del Software.\nEl ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.\nPuede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar.\n\n\n\nDurante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.\nCada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.\nCon los Large Language Models aparece una nueva posibilidad.\nUna parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.\nEl trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.\nEste cambio no elimina la necesidad de diseñar software.\nAl contrario.\nHace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos.\n\n\n\nLos Large Language Models no sustituyen a la Ingeniería del Software.\nTransforman su papel.\nEl ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.\nLo que cambia es la naturaleza de las herramientas disponibles.\nPor primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.\nYa no programa únicamente instrucciones.\nColabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema.\n\n\n\nComprender qué es un Large Language Model constituye únicamente el primer paso.\nLa siguiente cuestión resulta todavía más interesante.\n¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?\nResponder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.\nEn el siguiente apartado analizaremos los Transformers, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#un-modelo-entrenado-no-programado",
+    "href": "docs/chapters/01-intro/06-llm.html#un-modelo-entrenado-no-programado",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Un Large Language Model no es un programa tradicional.\nNo está formado por miles de reglas escritas manualmente.\nNo contiene una enorme colección de árboles de decisión.\nNo implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.\nSu funcionamiento es completamente diferente.\nDurante un proceso denominado entrenamiento, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.\nA partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.\nEl resultado de ese proceso no es un programa lleno de reglas.\nEs un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#mucho-más-que-predecir-palabras",
+    "href": "docs/chapters/01-intro/06-llm.html#mucho-más-que-predecir-palabras",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Con frecuencia se afirma que un LLM simplemente predice la siguiente palabra.\nAunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.\nDurante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.\nAprende relaciones entre conceptos.\nAprende estilos de escritura.\nAprende estructuras sintácticas.\nAprende asociaciones entre ideas.\nAprende patrones presentes en millones de documentos.\nComo consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.\nEl modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#el-gran-cambio-de-paradigma",
+    "href": "docs/chapters/01-intro/06-llm.html#el-gran-cambio-de-paradigma",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Hasta este momento todos los paradigmas estudiados compartían una característica común.\nEl conocimiento residía en el programa.\nEl desarrollador analizaba el problema.\nDiseñaba un algoritmo.\nLo implementaba mediante un lenguaje de programación.\nY el ordenador ejecutaba exactamente ese conocimiento.\nCon los Large Language Models esta situación cambia radicalmente.\n\nEl conocimiento deja de residir exclusivamente en el programa.\nUna parte fundamental del conocimiento reside ahora en el modelo.\n\nEsta diferencia transforma profundamente la Ingeniería del Software.\nEl ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.\nPuede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#del-desarrollo-al-aprovechamiento-del-conocimiento",
+    "href": "docs/chapters/01-intro/06-llm.html#del-desarrollo-al-aprovechamiento-del-conocimiento",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Durante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.\nCada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.\nCon los Large Language Models aparece una nueva posibilidad.\nUna parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.\nEl trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.\nEste cambio no elimina la necesidad de diseñar software.\nAl contrario.\nHace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#un-nuevo-papel-para-el-ingeniero",
+    "href": "docs/chapters/01-intro/06-llm.html#un-nuevo-papel-para-el-ingeniero",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Los Large Language Models no sustituyen a la Ingeniería del Software.\nTransforman su papel.\nEl ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.\nLo que cambia es la naturaleza de las herramientas disponibles.\nPor primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.\nYa no programa únicamente instrucciones.\nColabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/06-llm.html#el-siguiente-paso",
+    "href": "docs/chapters/01-intro/06-llm.html#el-siguiente-paso",
+    "title": "Large Language Models",
+    "section": "",
+    "text": "Comprender qué es un Large Language Model constituye únicamente el primer paso.\nLa siguiente cuestión resulta todavía más interesante.\n¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?\nResponder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.\nEn el siguiente apartado analizaremos los Transformers, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales."
+  },
+  {
     "objectID": "docs/chapters/01-intro/index.html",
     "href": "docs/chapters/01-intro/index.html",
     "title": "Large Language Models",
@@ -65,379 +114,6 @@
     "crumbs": [
       "Inicio",
       "Introducción"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/07-watson.html",
-    "href": "docs/chapters/01-intro/07-watson.html",
-    "title": "Antes de los LLM",
-    "section": "",
-    "text": "Cuando hoy se habla de Inteligencia Artificial es habitual pensar inmediatamente en ChatGPT, Claude, Gemini o cualquier otro modelo de lenguaje. Sin embargo, la idea de construir sistemas capaces de comprender preguntas formuladas en lenguaje natural y responder de forma inteligente es muy anterior a la aparición de los Large Language Models.\nUno de los ejemplos más conocidos fue Watson, desarrollado por IBM(Ferrucci et al. 2010). En 2011 alcanzó notoriedad internacional al derrotar a los mejores concursantes humanos en el programa de televisión Jeopardy!, un concurso que exige comprender preguntas complejas, interpretar juegos de palabras y localizar rápidamente la respuesta más adecuada.\nAunque desde el exterior Watson parecía mantener una conversación con los concursantes, su funcionamiento era muy diferente al de un LLM moderno. No se basaba en una única red neuronal de grandes dimensiones, sino en la integración de numerosas tecnologías especializadas que trabajaban de forma coordinada(Ferrucci et al. 2010). El sistema combinaba procesamiento del lenguaje natural, búsqueda de información, aprendizaje automático, análisis estadístico y mecanismos de razonamiento para generar varias respuestas posibles y seleccionar aquella que ofrecía un mayor grado de confianza.\nWatson representó un extraordinario logro de la Ingeniería del Software y de la Inteligencia Artificial de su tiempo. Demostró que era posible construir sistemas capaces de interpretar preguntas expresadas en lenguaje natural y ofrecer respuestas útiles, pero también puso de manifiesto la enorme complejidad que suponía integrar y mantener un gran número de componentes especializados.\nLa siguiente gran evolución no consistió únicamente en mejorar cada uno de esos componentes, sino en cambiar el enfoque. En lugar de construir un sistema formado por numerosos módulos independientes, la investigación comenzó a explorar la posibilidad de que una única red neuronal aprendiera por sí misma muchas de esas capacidades durante su entrenamiento.\nEse cambio de paradigma dio origen a una nueva generación de sistemas: los Large Language Models, o LLM.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Antes de los LLM"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/07-watson.html#de-watson-a-los-llm",
-    "href": "docs/chapters/01-intro/07-watson.html#de-watson-a-los-llm",
-    "title": "Antes de los LLM",
-    "section": "",
-    "text": "Cuando hoy se habla de Inteligencia Artificial es habitual pensar inmediatamente en ChatGPT, Claude, Gemini o cualquier otro modelo de lenguaje. Sin embargo, la idea de construir sistemas capaces de comprender preguntas formuladas en lenguaje natural y responder de forma inteligente es muy anterior a la aparición de los Large Language Models.\nUno de los ejemplos más conocidos fue Watson, desarrollado por IBM(Ferrucci et al. 2010). En 2011 alcanzó notoriedad internacional al derrotar a los mejores concursantes humanos en el programa de televisión Jeopardy!, un concurso que exige comprender preguntas complejas, interpretar juegos de palabras y localizar rápidamente la respuesta más adecuada.\nAunque desde el exterior Watson parecía mantener una conversación con los concursantes, su funcionamiento era muy diferente al de un LLM moderno. No se basaba en una única red neuronal de grandes dimensiones, sino en la integración de numerosas tecnologías especializadas que trabajaban de forma coordinada(Ferrucci et al. 2010). El sistema combinaba procesamiento del lenguaje natural, búsqueda de información, aprendizaje automático, análisis estadístico y mecanismos de razonamiento para generar varias respuestas posibles y seleccionar aquella que ofrecía un mayor grado de confianza.\nWatson representó un extraordinario logro de la Ingeniería del Software y de la Inteligencia Artificial de su tiempo. Demostró que era posible construir sistemas capaces de interpretar preguntas expresadas en lenguaje natural y ofrecer respuestas útiles, pero también puso de manifiesto la enorme complejidad que suponía integrar y mantener un gran número de componentes especializados.\nLa siguiente gran evolución no consistió únicamente en mejorar cada uno de esos componentes, sino en cambiar el enfoque. En lugar de construir un sistema formado por numerosos módulos independientes, la investigación comenzó a explorar la posibilidad de que una única red neuronal aprendiera por sí misma muchas de esas capacidades durante su entrenamiento.\nEse cambio de paradigma dio origen a una nueva generación de sistemas: los Large Language Models, o LLM.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Antes de los LLM"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/06-dl.html",
-    "href": "docs/chapters/01-intro/06-dl.html",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Si cada algoritmo está diseñado para resolver una determinada familia de problemas y el número de problemas del mundo real es prácticamente ilimitado, parecería lógico pensar que también sería necesario desarrollar un número ilimitado de algoritmos, aquí aparecen las Redes Neuronales.\nLas redes neuronales artificiales no eran una idea nueva. Sus primeros modelos se remontan a la década de 1940 con los trabajos de McCulloch y Pitts (McCulloch y Pitts 1943), y pocos años después Frank Rosenblatt presentó el perceptrón, considerado la primera red neuronal capaz de aprender a partir de ejemplos (Rosenblatt 1958). Durante las décadas siguientes la investigación continuó avanzando, alternando periodos de entusiasmo con otros de profundo escepticismo, especialmente tras la publicación de Perceptrons de Marvin Minsky y Seymour Papert, que puso de manifiesto importantes limitaciones de los modelos existentes (Minsky y Papert 1969).\nLejos de desaparecer, las redes neuronales continuaron evolucionando, la aparición del algoritmo de retropropagación permitió entrenar redes de mayor complejidad (Rumelhart, Hinton, y Williams 1986), y poco después comenzaron a demostrar su utilidad en aplicaciones reales como el reconocimiento automático de caracteres manuscritos (LeCun et al. 1989); sin embargo, durante muchos años siguieron siendo una técnica más dentro del amplio conjunto de algoritmos de Machine Learning, en numerosos problemas, otros métodos ofrecían mejores resultados con un menor coste computacional.\nEl cambio comenzó a producirse cuando coincidieron varios factores. La capacidad de cálculo de los ordenadores aumentó de forma extraordinaria, aparecieron procesadores especialmente adecuados para realizar millones de operaciones en paralelo y la cantidad de datos disponibles creció a una escala nunca antes vista. En ese nuevo contexto, las redes neuronales empezaron a mostrar un comportamiento muy diferente al observado durante las décadas anteriores.\nEn 2006 Geoffrey Hinton y Ruslan Salakhutdinov demostraron que era posible entrenar redes neuronales mucho más profundas que las utilizadas hasta entonces (Hinton y Salakhutdinov 2006). Aquella línea de investigación culminó pocos años después con AlexNet, una red neuronal que obtuvo unos resultados espectaculares en el concurso internacional ImageNet y marcó un punto de inflexión para la comunidad científica (Krizhevsky, Sutskever, y Hinton 2012).\nFue entonces cuando comenzó a popularizarse el término Deep Learning. Más que una nueva disciplina, describía una nueva generación de redes neuronales caracterizadas por un mayor número de capas y una capacidad muy superior para aprender representaciones complejas de los datos. La idea fundamental seguía siendo la misma que décadas atrás, pero la tecnología había alcanzado por fin el nivel necesario para explotar todo su potencial.\nEl Deep Learning no eliminó los algoritmos clásicos de Machine Learning, que continúan siendo la mejor elección en numerosos problemas. Su verdadera aportación fue demostrar que una misma familia de modelos podía abordar tareas extraordinariamente diversas, desde el reconocimiento de imágenes hasta la traducción automática, el reconocimiento del habla o la generación de texto, aquella aparente necesidad de crear un algoritmo diferente para cada problema comenzó a diluirse, no porque existiera un algoritmo universal, sino porque las redes neuronales demostraron una capacidad de adaptación muy superior a la imaginada durante sus primeras décadas de existencia.\nPara comprender por qué esto fue posible es necesario conocer cómo está construida una red neuronal y cuál es el mecanismo que le permite aprender a partir de los datos.\n\n\nA pesar de su nombre, una red neuronal artificial está muy lejos de reproducir el funcionamiento del cerebro humano. El término neuronal responde más a una inspiración biológica que a una copia de la realidad. Sus primeros investigadores observaron que el cerebro era capaz de aprender a partir de la experiencia y se preguntaron si sería posible construir modelos matemáticos que, de forma muy simplificada, presentaran un comportamiento similar.\nLa idea era sorprendentemente sencilla. En lugar de diseñar un algoritmo específico para cada problema, se construía una estructura formada por un gran número de unidades muy simples, denominadas neuronas artificiales, conectadas entre sí. Cada una de ellas recibía información procedente de otras neuronas, realizaba un pequeño cálculo matemático y transmitía el resultado a las siguientes.\nDe forma aislada, una neurona artificial apenas tiene capacidad para resolver ningún problema interesante. Su funcionamiento consiste únicamente en combinar una serie de valores numéricos, aplicar una función matemática y producir un nuevo valor como resultado. Sin embargo, cuando miles o incluso millones de estas neuronas trabajan conjuntamente, comienzan a emerger comportamientos mucho más complejos.\nLas conexiones entre las neuronas no tienen todas la misma importancia. Cada una posee un valor numérico asociado, denominado peso, que determina cuánto influye una señal sobre la siguiente neurona. Durante el entrenamiento estos pesos se modifican continuamente, reforzando aquellas conexiones que ayudan a obtener respuestas correctas y debilitando las que producen errores. En realidad, aprender no significa otra cosa que encontrar la combinación de millones de pesos que mejor representa las relaciones existentes en los datos.\nLas neuronas suelen organizarse en capas. Una primera capa recibe la información de entrada, varias capas intermedias transforman progresivamente esa información y una última capa genera el resultado final. Cuantas más capas intervienen en ese proceso, mayor es la capacidad del modelo para descubrir relaciones complejas. Precisamente de esa mayor profundidad procede el término Deep Learning.\nLa enorme ventaja de este enfoque es que la estructura general de la red apenas cambia de un problema a otro. Lo que realmente varía son los valores de sus millones de pesos, que se ajustan automáticamente durante el entrenamiento. Una misma arquitectura puede aprender a reconocer objetos en imágenes, traducir textos entre idiomas, identificar enfermedades a partir de pruebas médicas o mantener una conversación con un usuario. No porque haya sido programada específicamente para cada una de esas tareas, sino porque ha aprendido patrones diferentes modificando sus conexiones internas.\nComprender esta idea resulta fundamental para entender la evolución reciente de la Inteligencia Artificial. Sin embargo, todavía queda una pregunta por responder. Si una red neuronal contiene millones o incluso miles de millones de pesos, ¿cómo consigue ajustarlos para aprender sin que un ingeniero tenga que modificarlos uno a uno?\n\n\n\nUna red neuronal aprende mediante un proceso iterativo de prueba y error. Durante el entrenamiento recibe un gran número de ejemplos, genera una respuesta para cada uno de ellos y la compara con el resultado esperado. Si la respuesta es correcta, apenas realiza cambios. Si se ha equivocado, modifica ligeramente los pesos de sus conexiones para intentar reducir ese error en la siguiente ocasión.\nEste proceso se repite miles, millones o incluso miles de millones de veces. Cada modificación individual es prácticamente insignificante, pero la acumulación de todos esos pequeños ajustes termina construyendo un modelo capaz de reconocer patrones muy complejos.\nLa clave del aprendizaje no consiste en memorizar los ejemplos utilizados durante el entrenamiento, sino en encontrar una configuración de pesos que permita responder correctamente también ante datos nuevos. Dicho de otro modo, la red no aprende respuestas concretas, sino las relaciones matemáticas que existen entre los datos.\nTodo este proceso se realiza de forma automática mediante algoritmos de optimización que calculan cómo deben modificarse los pesos para reducir progresivamente el error. Aunque la base matemática que lo hace posible es compleja, desde el punto de vista conceptual la idea resulta sencilla: la red prueba, mide el error, ajusta sus conexiones y vuelve a intentarlo una y otra vez hasta que alcanza un resultado satisfactorio.\nEste mecanismo de aprendizaje, combinado con grandes cantidades de datos y una enorme capacidad de cálculo, es el que ha convertido a las redes neuronales profundas en la base de la mayoría de los sistemas modernos de Inteligencia Artificial.\n\n\n\nA medida que las redes neuronales aumentaban de tamaño comenzaron a aparecer capacidades que antes parecían inalcanzables. Ya no solo reconocían imágenes o clasificaban datos. También empezaban a comprender relaciones complejas entre palabras, frases y documentos completos. Aquello abrió el camino hacia una nueva generación de modelos conocidos como Large Language Models (LLM).",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/06-dl.html#qué-es-una-red-neuronal",
-    "href": "docs/chapters/01-intro/06-dl.html#qué-es-una-red-neuronal",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "A pesar de su nombre, una red neuronal artificial está muy lejos de reproducir el funcionamiento del cerebro humano. El término neuronal responde más a una inspiración biológica que a una copia de la realidad. Sus primeros investigadores observaron que el cerebro era capaz de aprender a partir de la experiencia y se preguntaron si sería posible construir modelos matemáticos que, de forma muy simplificada, presentaran un comportamiento similar.\nLa idea era sorprendentemente sencilla. En lugar de diseñar un algoritmo específico para cada problema, se construía una estructura formada por un gran número de unidades muy simples, denominadas neuronas artificiales, conectadas entre sí. Cada una de ellas recibía información procedente de otras neuronas, realizaba un pequeño cálculo matemático y transmitía el resultado a las siguientes.\nDe forma aislada, una neurona artificial apenas tiene capacidad para resolver ningún problema interesante. Su funcionamiento consiste únicamente en combinar una serie de valores numéricos, aplicar una función matemática y producir un nuevo valor como resultado. Sin embargo, cuando miles o incluso millones de estas neuronas trabajan conjuntamente, comienzan a emerger comportamientos mucho más complejos.\nLas conexiones entre las neuronas no tienen todas la misma importancia. Cada una posee un valor numérico asociado, denominado peso, que determina cuánto influye una señal sobre la siguiente neurona. Durante el entrenamiento estos pesos se modifican continuamente, reforzando aquellas conexiones que ayudan a obtener respuestas correctas y debilitando las que producen errores. En realidad, aprender no significa otra cosa que encontrar la combinación de millones de pesos que mejor representa las relaciones existentes en los datos.\nLas neuronas suelen organizarse en capas. Una primera capa recibe la información de entrada, varias capas intermedias transforman progresivamente esa información y una última capa genera el resultado final. Cuantas más capas intervienen en ese proceso, mayor es la capacidad del modelo para descubrir relaciones complejas. Precisamente de esa mayor profundidad procede el término Deep Learning.\nLa enorme ventaja de este enfoque es que la estructura general de la red apenas cambia de un problema a otro. Lo que realmente varía son los valores de sus millones de pesos, que se ajustan automáticamente durante el entrenamiento. Una misma arquitectura puede aprender a reconocer objetos en imágenes, traducir textos entre idiomas, identificar enfermedades a partir de pruebas médicas o mantener una conversación con un usuario. No porque haya sido programada específicamente para cada una de esas tareas, sino porque ha aprendido patrones diferentes modificando sus conexiones internas.\nComprender esta idea resulta fundamental para entender la evolución reciente de la Inteligencia Artificial. Sin embargo, todavía queda una pregunta por responder. Si una red neuronal contiene millones o incluso miles de millones de pesos, ¿cómo consigue ajustarlos para aprender sin que un ingeniero tenga que modificarlos uno a uno?",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/06-dl.html#cómo-aprende-una-red-neuronal",
-    "href": "docs/chapters/01-intro/06-dl.html#cómo-aprende-una-red-neuronal",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Una red neuronal aprende mediante un proceso iterativo de prueba y error. Durante el entrenamiento recibe un gran número de ejemplos, genera una respuesta para cada uno de ellos y la compara con el resultado esperado. Si la respuesta es correcta, apenas realiza cambios. Si se ha equivocado, modifica ligeramente los pesos de sus conexiones para intentar reducir ese error en la siguiente ocasión.\nEste proceso se repite miles, millones o incluso miles de millones de veces. Cada modificación individual es prácticamente insignificante, pero la acumulación de todos esos pequeños ajustes termina construyendo un modelo capaz de reconocer patrones muy complejos.\nLa clave del aprendizaje no consiste en memorizar los ejemplos utilizados durante el entrenamiento, sino en encontrar una configuración de pesos que permita responder correctamente también ante datos nuevos. Dicho de otro modo, la red no aprende respuestas concretas, sino las relaciones matemáticas que existen entre los datos.\nTodo este proceso se realiza de forma automática mediante algoritmos de optimización que calculan cómo deben modificarse los pesos para reducir progresivamente el error. Aunque la base matemática que lo hace posible es compleja, desde el punto de vista conceptual la idea resulta sencilla: la red prueba, mide el error, ajusta sus conexiones y vuelve a intentarlo una y otra vez hasta que alcanza un resultado satisfactorio.\nEste mecanismo de aprendizaje, combinado con grandes cantidades de datos y una enorme capacidad de cálculo, es el que ha convertido a las redes neuronales profundas en la base de la mayoría de los sistemas modernos de Inteligencia Artificial.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/06-dl.html#siguiente-paso",
-    "href": "docs/chapters/01-intro/06-dl.html#siguiente-paso",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "A medida que las redes neuronales aumentaban de tamaño comenzaron a aparecer capacidades que antes parecían inalcanzables. Ya no solo reconocían imágenes o clasificaban datos. También empezaban a comprender relaciones complejas entre palabras, frases y documentos completos. Aquello abrió el camino hacia una nueva generación de modelos conocidos como Large Language Models (LLM).",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Deep Learning"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Mientras la Ingeniería del Software evolucionaba hacia niveles crecientes de abstracción, otra disciplina comenzaba a plantearse una pregunta completamente diferente:\n¿Es posible representar el conocimiento humano dentro de un ordenador?\nEsta cuestión dio origen a la primera gran corriente de la Inteligencia Artificial, conocida hoy como Inteligencia Artificial simbólica o Good Old-Fashioned Artificial Intelligence (GOFAI), su objetivo no consistía en aprender a partir de datos, sino en construir sistemas capaces de razonar utilizando conocimiento representado explícitamente.\n\n\nLos investigadores de las décadas de 1950 y 1960 partían de una hipótesis aparentemente razonable:\n\nCuando una persona resuelve un problema, utiliza conocimientos, reglas y razonamientos.\n\nSi somos capaces de expresar ese conocimiento de forma estructurada, un ordenador también debería ser capaz de utilizarlo para resolver problemas similares. La inteligencia no debía aprenderse, debía escribirse.\nEl reto consistía en encontrar una forma adecuada de representar ese conocimiento.\n\n\n\nLos ordenadores habían nacido para realizar cálculos numéricos, la Inteligencia Artificial simbólica propuso utilizar los ordenadores para manipular conceptos, en lugar de sumar o multiplicar, los programas trabajarían con conceptos como:\n\nPersonas.\nAnimales.\nEnfermedades.\nSíntomas.\nEmpresas.\nProductos.\nRelaciones lógicas.\n\nEstos elementos se representaban mediante símbolos, de donde procede el nombre de esta disciplina.\nUn sistema podía conocer afirmaciones como:\n\nMadrid es la capital de España.\nTodos los mamíferos son animales.\nUn empleado pertenece a un departamento.\n\nA partir de estas afirmaciones era posible deducir nuevo conocimiento mediante reglas lógicas.\n\n\n\nLa pieza fundamental de la IA simbólica era el motor de inferencia, el conocimiento se almacenaba mediante hechos y reglas.\nPor ejemplo:\n\nTodos los pájaros tienen alas.\nUn gorrión es un pájaro.\n\nEl sistema podía deducir automáticamente:\n\nUn gorrión tiene alas.\n\nNadie había escrito explícitamente esa conclusión, había sido obtenida mediante razonamiento lógico. Por primera vez un ordenador parecía capaz de extraer conclusiones utilizando conocimiento previamente representado.\n\n\n\nLa necesidad de representar conocimiento impulsó el desarrollo de nuevos lenguajes de programación:\n\nLisp permitió manipular símbolos, listas y expresiones de forma extremadamente flexible, su capacidad para tratar programas como datos convirtió a Lisp en el lenguaje predominante de la investigación en Inteligencia Artificial durante varias décadas.\nProlog introdujo la programación declarativa basada en la lógica matemática., permitía describir hechos y reglas sin implementar explícitamente el algoritmo de razonamiento. El desarrollador no escribía algoritmos, describía hechos y reglas y el propio sistema se encargaba de buscar las cadenas de razonamiento necesarias para responder preguntas.\n\nEsta idea representaba una evolución muy interesante respecto a la programación declarativa, ya no solo se declaraba el resultado esperado, si no que también se declaraba el conocimiento sobre el que debía razonar el sistema.\n\n\n\nDurante los años setenta y ochenta esta filosofía alcanzó su máximo desarrollo con los sistemas expertos.\nLa idea era tan sencilla como ambiciosa: Si un especialista podía explicar cómo tomaba decisiones, ese conocimiento podría almacenarse en un ordenador.\n\nUn médico podía describir cómo diagnosticaba una enfermedad.\nUn ingeniero podía explicar cómo configurar una máquina industrial.\nUn geólogo podía indicar cómo localizar determinados minerales.\n\nLos ingenieros del conocimiento entrevistaban a estos expertos y transformaban sus explicaciones en miles de reglas lógicas, el resultado eran sistemas capaces de resolver problemas muy especializados:\n\nMYCIN, por ejemplo, ayudaba al diagnóstico de infecciones bacterianas.\nXCON configuraba automáticamente complejos sistemas informáticos para Digital Equipment Corporation (DEC).\n\nDurante algún tiempo estos sistemas obtuvieron resultados extraordinarios y alimentaron la idea de que la Inteligencia Artificial estaba cerca de resolver el problema del razonamiento humano.\n\n\n\nSin embargo, muy pronto apareció una dificultad que nadie había previsto con suficiente claridad: El conocimiento humano no puede reducirse fácilmente a una colección de reglas. Cada nueva excepción obligaba a escribir nuevas reglas, las reglas comenzaban a entrar en conflicto entre sí y el mantenimiento se volvía cada vez más complejo. La incorporación de nuevos conocimientos exigía revisar miles de decisiones anteriores.\nEste problema llegó a conocerse como el cuello de botella del conocimiento (Knowledge Acquisition Bottleneck).\nNo era difícil construir un sistema experto, lo realmente difícil era mantenerlo actualizado durante años.\n\n\n\nLa IA simbólica demostró que los ordenadores podían razonar, pero también puso de manifiesto una limitación fundamental: El conocimiento debía ser introducido manualmente.\n\nCada regla.\nCada excepción.\nCada relación.\nCada concepto.\n\nLa inteligencia dependía directamente de la cantidad y calidad del conocimiento escrito por los expertos, el sistema nunca podía saber más de lo que alguien había representado previamente, en otras palabras, la inteligencia seguía dependiendo completamente del ser humano.\n\n\n\nAunque muchos sistemas expertos desaparecieron con el tiempo, la IA simbólica dejó un legado extraordinario introduciendo conceptos que siguen siendo fundamentales en la actualidad:\n\nLa representación del conocimiento.\nLa inferencia lógica.\nLas ontologías.\nLos grafos de conocimiento.\nLos motores de reglas.\nLa planificación automática.\n\nMuchos sistemas modernos continúan utilizando estas técnicas allí donde resulta imprescindible trabajar con conocimiento explícito y completamente verificable.\n\n\n\nLa IA simbólica intentó construir inteligencia escribiendo conocimiento, durante décadas fue el enfoque dominante sin embargo, a medida que los problemas crecían en complejidad comenzó a resultar evidente que representar manualmente todo el conocimiento humano era una tarea inabordable. Quizá el problema no consistía en escribir mejores reglas. Quizá el verdadero cambio debía consistir en dejar que las máquinas aprendieran esas reglas por sí mismas.\nEsa idea marcaría el nacimiento de una nueva etapa en la historia de la Inteligencia Artificial: el aprendizaje automático.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#la-inteligencia-como-conocimiento",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#la-inteligencia-como-conocimiento",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Los investigadores de las décadas de 1950 y 1960 partían de una hipótesis aparentemente razonable:\n\nCuando una persona resuelve un problema, utiliza conocimientos, reglas y razonamientos.\n\nSi somos capaces de expresar ese conocimiento de forma estructurada, un ordenador también debería ser capaz de utilizarlo para resolver problemas similares. La inteligencia no debía aprenderse, debía escribirse.\nEl reto consistía en encontrar una forma adecuada de representar ese conocimiento.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#símbolos-en-lugar-de-números",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#símbolos-en-lugar-de-números",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Los ordenadores habían nacido para realizar cálculos numéricos, la Inteligencia Artificial simbólica propuso utilizar los ordenadores para manipular conceptos, en lugar de sumar o multiplicar, los programas trabajarían con conceptos como:\n\nPersonas.\nAnimales.\nEnfermedades.\nSíntomas.\nEmpresas.\nProductos.\nRelaciones lógicas.\n\nEstos elementos se representaban mediante símbolos, de donde procede el nombre de esta disciplina.\nUn sistema podía conocer afirmaciones como:\n\nMadrid es la capital de España.\nTodos los mamíferos son animales.\nUn empleado pertenece a un departamento.\n\nA partir de estas afirmaciones era posible deducir nuevo conocimiento mediante reglas lógicas.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-razonamiento-mediante-reglas",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-razonamiento-mediante-reglas",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "La pieza fundamental de la IA simbólica era el motor de inferencia, el conocimiento se almacenaba mediante hechos y reglas.\nPor ejemplo:\n\nTodos los pájaros tienen alas.\nUn gorrión es un pájaro.\n\nEl sistema podía deducir automáticamente:\n\nUn gorrión tiene alas.\n\nNadie había escrito explícitamente esa conclusión, había sido obtenida mediante razonamiento lógico. Por primera vez un ordenador parecía capaz de extraer conclusiones utilizando conocimiento previamente representado.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#los-lenguajes-de-la-inteligencia-artificial",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#los-lenguajes-de-la-inteligencia-artificial",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "La necesidad de representar conocimiento impulsó el desarrollo de nuevos lenguajes de programación:\n\nLisp permitió manipular símbolos, listas y expresiones de forma extremadamente flexible, su capacidad para tratar programas como datos convirtió a Lisp en el lenguaje predominante de la investigación en Inteligencia Artificial durante varias décadas.\nProlog introdujo la programación declarativa basada en la lógica matemática., permitía describir hechos y reglas sin implementar explícitamente el algoritmo de razonamiento. El desarrollador no escribía algoritmos, describía hechos y reglas y el propio sistema se encargaba de buscar las cadenas de razonamiento necesarias para responder preguntas.\n\nEsta idea representaba una evolución muy interesante respecto a la programación declarativa, ya no solo se declaraba el resultado esperado, si no que también se declaraba el conocimiento sobre el que debía razonar el sistema.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#los-sistemas-expertos",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#los-sistemas-expertos",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Durante los años setenta y ochenta esta filosofía alcanzó su máximo desarrollo con los sistemas expertos.\nLa idea era tan sencilla como ambiciosa: Si un especialista podía explicar cómo tomaba decisiones, ese conocimiento podría almacenarse en un ordenador.\n\nUn médico podía describir cómo diagnosticaba una enfermedad.\nUn ingeniero podía explicar cómo configurar una máquina industrial.\nUn geólogo podía indicar cómo localizar determinados minerales.\n\nLos ingenieros del conocimiento entrevistaban a estos expertos y transformaban sus explicaciones en miles de reglas lógicas, el resultado eran sistemas capaces de resolver problemas muy especializados:\n\nMYCIN, por ejemplo, ayudaba al diagnóstico de infecciones bacterianas.\nXCON configuraba automáticamente complejos sistemas informáticos para Digital Equipment Corporation (DEC).\n\nDurante algún tiempo estos sistemas obtuvieron resultados extraordinarios y alimentaron la idea de que la Inteligencia Artificial estaba cerca de resolver el problema del razonamiento humano.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-cuello-de-botella-del-conocimiento",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-cuello-de-botella-del-conocimiento",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Sin embargo, muy pronto apareció una dificultad que nadie había previsto con suficiente claridad: El conocimiento humano no puede reducirse fácilmente a una colección de reglas. Cada nueva excepción obligaba a escribir nuevas reglas, las reglas comenzaban a entrar en conflicto entre sí y el mantenimiento se volvía cada vez más complejo. La incorporación de nuevos conocimientos exigía revisar miles de decisiones anteriores.\nEste problema llegó a conocerse como el cuello de botella del conocimiento (Knowledge Acquisition Bottleneck).\nNo era difícil construir un sistema experto, lo realmente difícil era mantenerlo actualizado durante años.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-límite-de-la-inteligencia-artificial-simbólica",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-límite-de-la-inteligencia-artificial-simbólica",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "La IA simbólica demostró que los ordenadores podían razonar, pero también puso de manifiesto una limitación fundamental: El conocimiento debía ser introducido manualmente.\n\nCada regla.\nCada excepción.\nCada relación.\nCada concepto.\n\nLa inteligencia dependía directamente de la cantidad y calidad del conocimiento escrito por los expertos, el sistema nunca podía saber más de lo que alguien había representado previamente, en otras palabras, la inteligencia seguía dependiendo completamente del ser humano.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#una-lección-que-sigue-vigente",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#una-lección-que-sigue-vigente",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "Aunque muchos sistemas expertos desaparecieron con el tiempo, la IA simbólica dejó un legado extraordinario introduciendo conceptos que siguen siendo fundamentales en la actualidad:\n\nLa representación del conocimiento.\nLa inferencia lógica.\nLas ontologías.\nLos grafos de conocimiento.\nLos motores de reglas.\nLa planificación automática.\n\nMuchos sistemas modernos continúan utilizando estas técnicas allí donde resulta imprescindible trabajar con conocimiento explícito y completamente verificable.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-siguiente-paso",
-    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-siguiente-paso",
-    "title": "IA Simbolica",
-    "section": "",
-    "text": "La IA simbólica intentó construir inteligencia escribiendo conocimiento, durante décadas fue el enfoque dominante sin embargo, a medida que los problemas crecían en complejidad comenzó a resultar evidente que representar manualmente todo el conocimiento humano era una tarea inabordable. Quizá el problema no consistía en escribir mejores reglas. Quizá el verdadero cambio debía consistir en dejar que las máquinas aprendieran esas reglas por sí mismas.\nEsa idea marcaría el nacimiento de una nueva etapa en la historia de la Inteligencia Artificial: el aprendizaje automático.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "IA Simbolica"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html",
-    "href": "docs/chapters/01-intro/03-declarativa.html",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "La programación declarativa representa un nuevo paso en la evolución de los niveles de abstracción del software, mientras que la programación imperativa obliga al desarrollador a describir paso a paso el algoritmo que debe ejecutar el ordenador, y la programación funcional centra la atención en las transformaciones aplicadas sobre los datos, la programación declarativa propone un enfoque completamente diferente: El desarrollador deja de indicar cómo resolver un problema y comienza a describir qué resultado desea obtener.\nLa responsabilidad de encontrar el procedimiento adecuado pasa a formar parte del propio sistema.\n\n\nEn un lenguaje imperativo, obtener una lista de clientes con saldo pendiente implica diseñar un algoritmo completo, será necesario recorrer estructuras de datos, evaluar condiciones, almacenar resultados y decidir el orden de ejecución de cada operación, en un lenguaje declarativo como SQL, el mismo problema puede expresarse de forma mucho más sencilla.\nSELECT *\nFROM clientes\nWHERE saldo &gt; 0;\nLa consulta no indica cómo recorrer la tabla, qué algoritmo utilizar ni qué índices emplear, simplemente especifica el resultado esperado. El sistema gestor de bases de datos (SGDB) analiza la consulta, estudia las estadísticas disponibles y selecciona automáticamente el plan de ejecución que considera más eficiente, por primera vez, el desarrollador comienza a delegar decisiones importantes en la propia plataforma.\n\n\n\nEste mismo principio aparece hoy en numerosas tecnologías modernas, cuando utilizamos Terraform, Kubernetes o Docker Compose no describimos una secuencia de operaciones, describimos el estado final que deseamos alcanzar, no indicamos cómo crear una máquina virtual, desplegar un contenedor o configurar una red, simplemente declaramos cuál debe ser el resultado final y dejamos que la plataforma determine el procedimiento necesario para conseguirlo.\nLa programación deja de ser una descripción detallada de acciones y se convierte en una especificación de objetivos.\n\n\n\nLa programación declarativa introduce un cambio conceptual muy importante: El desarrollador ya no controla todas las decisiones del proceso de ejecución, parte de esas decisiones se delegan en el propio sistema:\n\nUn optimizador SQL decide qué índices utilizar.\nUn planificador de Kubernetes decide en qué nodo ejecutar un contenedor.\nTerraform calcula automáticamente las dependencias entre recursos.\n\nEl ingeniero continúa definiendo el problema, pero deja de ser responsable de todos los detalles de su resolución, esta idea constituye uno de los mayores avances en la historia de la Ingeniería del Software.\n\n\n\nLa programación declarativa también estableció un puente natural hacia los primeros sistemas de Inteligencia Artificial, lenguajes como Prolog permitían describir hechos y reglas lógicas sin implementar explícitamente el algoritmo de razonamiento, El programador escribía afirmaciones como:\n\nJuan es padre de Pedro.\nPedro es padre de Luis.\n\nY definía reglas del tipo:\n\nSi X es padre de Y e Y es padre de Z, entonces X es abuelo de Z.\n\nEl motor de inferencia era el encargado de encontrar automáticamente las respuestas, por primera vez, el conocimiento comenzaba a representarse de forma explícita y el sistema asumía parte del proceso de razonamiento. Esta idea inspiró el desarrollo de la Inteligencia Artificial simbólica y de los sistemas expertos durante las décadas siguientes.\nAunque aquellos sistemas demostraron importantes limitaciones, introdujeron un concepto que sigue siendo fundamental en la actualidad: el ingeniero no siempre necesita describir el procedimiento completo; en muchas ocasiones basta con representar correctamente el conocimiento y dejar que el sistema realice el resto del trabajo.\n\n\n\nLa programación declarativa no constituye el final de esta evolución, representa un nuevo escalón en un proceso de abstracción creciente, cada nuevo paradigma ha desplazado una parte mayor de la complejidad desde el desarrollador hacia las herramientas.\n\nLa programación imperativa delegó el código máquina en el compilador.\nLa programación funcional delegó numerosos detalles de implementación en el lenguaje.\nLa programación declarativa delegó la estrategia de resolución en motores especializados.\n\nEl siguiente paso consistirá en delegar no solo la estrategia de ejecución, sino también parte del conocimiento necesario para resolver el problema, este cambio marcará el comienzo de una nueva etapa en la evolución de la Ingeniería del Software."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html#del-algoritmo-a-la-especificación",
-    "href": "docs/chapters/01-intro/03-declarativa.html#del-algoritmo-a-la-especificación",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "En un lenguaje imperativo, obtener una lista de clientes con saldo pendiente implica diseñar un algoritmo completo, será necesario recorrer estructuras de datos, evaluar condiciones, almacenar resultados y decidir el orden de ejecución de cada operación, en un lenguaje declarativo como SQL, el mismo problema puede expresarse de forma mucho más sencilla.\nSELECT *\nFROM clientes\nWHERE saldo &gt; 0;\nLa consulta no indica cómo recorrer la tabla, qué algoritmo utilizar ni qué índices emplear, simplemente especifica el resultado esperado. El sistema gestor de bases de datos (SGDB) analiza la consulta, estudia las estadísticas disponibles y selecciona automáticamente el plan de ejecución que considera más eficiente, por primera vez, el desarrollador comienza a delegar decisiones importantes en la propia plataforma."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html#el-estado-deseado",
-    "href": "docs/chapters/01-intro/03-declarativa.html#el-estado-deseado",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "Este mismo principio aparece hoy en numerosas tecnologías modernas, cuando utilizamos Terraform, Kubernetes o Docker Compose no describimos una secuencia de operaciones, describimos el estado final que deseamos alcanzar, no indicamos cómo crear una máquina virtual, desplegar un contenedor o configurar una red, simplemente declaramos cuál debe ser el resultado final y dejamos que la plataforma determine el procedimiento necesario para conseguirlo.\nLa programación deja de ser una descripción detallada de acciones y se convierte en una especificación de objetivos."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html#delegar-decisiones",
-    "href": "docs/chapters/01-intro/03-declarativa.html#delegar-decisiones",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "La programación declarativa introduce un cambio conceptual muy importante: El desarrollador ya no controla todas las decisiones del proceso de ejecución, parte de esas decisiones se delegan en el propio sistema:\n\nUn optimizador SQL decide qué índices utilizar.\nUn planificador de Kubernetes decide en qué nodo ejecutar un contenedor.\nTerraform calcula automáticamente las dependencias entre recursos.\n\nEl ingeniero continúa definiendo el problema, pero deja de ser responsable de todos los detalles de su resolución, esta idea constituye uno de los mayores avances en la historia de la Ingeniería del Software."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html#el-puente-hacia-la-inteligencia-artificial",
-    "href": "docs/chapters/01-intro/03-declarativa.html#el-puente-hacia-la-inteligencia-artificial",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "La programación declarativa también estableció un puente natural hacia los primeros sistemas de Inteligencia Artificial, lenguajes como Prolog permitían describir hechos y reglas lógicas sin implementar explícitamente el algoritmo de razonamiento, El programador escribía afirmaciones como:\n\nJuan es padre de Pedro.\nPedro es padre de Luis.\n\nY definía reglas del tipo:\n\nSi X es padre de Y e Y es padre de Z, entonces X es abuelo de Z.\n\nEl motor de inferencia era el encargado de encontrar automáticamente las respuestas, por primera vez, el conocimiento comenzaba a representarse de forma explícita y el sistema asumía parte del proceso de razonamiento. Esta idea inspiró el desarrollo de la Inteligencia Artificial simbólica y de los sistemas expertos durante las décadas siguientes.\nAunque aquellos sistemas demostraron importantes limitaciones, introdujeron un concepto que sigue siendo fundamental en la actualidad: el ingeniero no siempre necesita describir el procedimiento completo; en muchas ocasiones basta con representar correctamente el conocimiento y dejar que el sistema realice el resto del trabajo."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/03-declarativa.html#una-evolución-continua",
-    "href": "docs/chapters/01-intro/03-declarativa.html#una-evolución-continua",
-    "title": "Progrmacion declarativa",
-    "section": "",
-    "text": "La programación declarativa no constituye el final de esta evolución, representa un nuevo escalón en un proceso de abstracción creciente, cada nuevo paradigma ha desplazado una parte mayor de la complejidad desde el desarrollador hacia las herramientas.\n\nLa programación imperativa delegó el código máquina en el compilador.\nLa programación funcional delegó numerosos detalles de implementación en el lenguaje.\nLa programación declarativa delegó la estrategia de resolución en motores especializados.\n\nEl siguiente paso consistirá en delegar no solo la estrategia de ejecución, sino también parte del conocimiento necesario para resolver el problema, este cambio marcará el comienzo de una nueva etapa en la evolución de la Ingeniería del Software."
-  },
-  {
-    "objectID": "docs/chapters/01-intro/01-imperativa.html",
-    "href": "docs/chapters/01-intro/01-imperativa.html",
-    "title": "Programación imperativa",
-    "section": "",
-    "text": "Desde los primeros ordenadores hasta la actualidad, la inmensa mayoría del software se ha construido siguiendo un mismo principio fundamental.\nEl desarrollador describe explícitamente cómo debe resolverse un problema.\nEs decir, un programa no contiene únicamente el objetivo que se desea alcanzar, si no que contiene también la secuencia exacta de pasos necesarios para alcanzarlo. Un lenguaje de tercera generación (3GL), como C, Java, C++, COBOL o Python, permite expresar esa secuencia mediante instrucciones perfectamente definidas y sin ambigüedad.\nUn programa está formado por elementos como:\n\nVariables.\nTipos de datos.\nExpresiones.\nOperadores.\nCondiciones.\nBucles.\nFunciones y procedimientos.\nClases y objetos.\nEstructuras de datos.\n\nEstos elementos permiten construir algoritmos, los cuales no son mas que una secuencia ordenada de instrucciones que describe, paso a paso, cómo resolver un problema. Cada instrucción modifica el estado del sistema de una forma conocida y predecible. El procesador ejecuta exactamente las instrucciones escritas por el desarrollador, en el orden establecido por éste y siguiendo las reglas del lenguaje de programación.\nPor ejemplo:\nif (saldo &gt;= importe) {\n    saldo -= importe;\n    realizarTransferencia();\n} else {\n    throw new SaldoInsuficienteException();\n}\nEn este ejemplo no existe ninguna interpretación posible.\nSi la condición se cumple, se ejecutarán exactamente las instrucciones del primer bloque. Si no se cumple, se ejecutará el segundo. El resultado será siempre el mismo para una misma entrada. La responsabilidad de decidir qué hacer, cuándo hacerlo, cómo hacerlo y en qué orden hacerlo recae completamente sobre el ingeniero de software. El ordenador no toma decisiones. Ejecuta las instrucciones que recibe.\n\n\nEste paradigma ha demostrado durante más de medio siglo ser extraordinariamente eficaz. Permite construir sistemas que son:\n\nDeterministas.\nReproducibles.\nVerificables.\nDepurables.\nTrazables.\nMantenibles.\n\nGracias a ello se han desarrollado sistemas críticos como:\n\nSistemas bancarios.\nControl del tráfico aéreo.\nTelecomunicaciones.\nSistemas industriales.\nSatélites.\nSistemas sanitarios.\nAdministración pública.\n\nDurante décadas, este modelo ha constituido la base de la Ingeniería del Software.\n\n\n\nSin embargo, este enfoque tiene un requisito imprescindible: El ingeniero debe conocer previamente el algoritmo que resuelve el problema.. Antes de escribir una sola línea de código debe ser capaz de responder preguntas como:\n\n¿Qué pasos debo ejecutar?\n¿En qué orden?\n¿Qué decisiones deben tomarse?\n¿Qué casos especiales existen?\n¿Cómo debo gestionar los errores?\n¿Qué información necesito en cada momento?\n\nEn otras palabras:\n\nEl conocimiento necesario para resolver el problema está contenido explícitamente en el programa.\n\nEl ordenador simplemente ejecuta ese conocimiento.\n\n\n\nExisten, sin embargo, problemas para los que resulta extremadamente difícil escribir un algoritmo preciso.\nPor ejemplo:\n\nResumir un contrato de cien páginas.\nExplicar el significado de un poema.\nTraducir un documento técnico.\nDetectar el tono de una conversación.\nResponder preguntas sobre miles de documentos.\nMantener una conversación natural.\n\nLas personas realizamos estas tareas de manera cotidiana; sin embargo, describir mediante una secuencia exacta de instrucciones cómo llevarlas a cabo resulta extraordinariamente complejo. Durante décadas se intentó resolver este problema mediante reglas, gramáticas, árboles sintácticos, sistemas expertos y numerosas técnicas de Procesamiento del Lenguaje Natural que, aunque obtuvieron buenos resultados en ámbitos concretos, ninguna consiguió ofrecer una solución general.\nEs precisamente en este contexto donde aparecen los Large Language Models (LLM). Su importancia no reside únicamente en que producen texto, su verdadera aportación consiste en introducir una forma completamente diferente de abordar problemas para los que no conocemos, o resulta inviable describir, un algoritmo explícito.\nComprender este cambio de paradigma será el objetivo de los siguientes capítulos.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programación imperativa"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/01-imperativa.html#las-fortalezas-del-modelo",
-    "href": "docs/chapters/01-intro/01-imperativa.html#las-fortalezas-del-modelo",
-    "title": "Programación imperativa",
-    "section": "",
-    "text": "Este paradigma ha demostrado durante más de medio siglo ser extraordinariamente eficaz. Permite construir sistemas que son:\n\nDeterministas.\nReproducibles.\nVerificables.\nDepurables.\nTrazables.\nMantenibles.\n\nGracias a ello se han desarrollado sistemas críticos como:\n\nSistemas bancarios.\nControl del tráfico aéreo.\nTelecomunicaciones.\nSistemas industriales.\nSatélites.\nSistemas sanitarios.\nAdministración pública.\n\nDurante décadas, este modelo ha constituido la base de la Ingeniería del Software.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programación imperativa"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/01-imperativa.html#el-requisito-fundamental",
-    "href": "docs/chapters/01-intro/01-imperativa.html#el-requisito-fundamental",
-    "title": "Programación imperativa",
-    "section": "",
-    "text": "Sin embargo, este enfoque tiene un requisito imprescindible: El ingeniero debe conocer previamente el algoritmo que resuelve el problema.. Antes de escribir una sola línea de código debe ser capaz de responder preguntas como:\n\n¿Qué pasos debo ejecutar?\n¿En qué orden?\n¿Qué decisiones deben tomarse?\n¿Qué casos especiales existen?\n¿Cómo debo gestionar los errores?\n¿Qué información necesito en cada momento?\n\nEn otras palabras:\n\nEl conocimiento necesario para resolver el problema está contenido explícitamente en el programa.\n\nEl ordenador simplemente ejecuta ese conocimiento.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programación imperativa"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/01-imperativa.html#cuando-el-algoritmo-no-es-evidente",
-    "href": "docs/chapters/01-intro/01-imperativa.html#cuando-el-algoritmo-no-es-evidente",
-    "title": "Programación imperativa",
-    "section": "",
-    "text": "Existen, sin embargo, problemas para los que resulta extremadamente difícil escribir un algoritmo preciso.\nPor ejemplo:\n\nResumir un contrato de cien páginas.\nExplicar el significado de un poema.\nTraducir un documento técnico.\nDetectar el tono de una conversación.\nResponder preguntas sobre miles de documentos.\nMantener una conversación natural.\n\nLas personas realizamos estas tareas de manera cotidiana; sin embargo, describir mediante una secuencia exacta de instrucciones cómo llevarlas a cabo resulta extraordinariamente complejo. Durante décadas se intentó resolver este problema mediante reglas, gramáticas, árboles sintácticos, sistemas expertos y numerosas técnicas de Procesamiento del Lenguaje Natural que, aunque obtuvieron buenos resultados en ámbitos concretos, ninguna consiguió ofrecer una solución general.\nEs precisamente en este contexto donde aparecen los Large Language Models (LLM). Su importancia no reside únicamente en que producen texto, su verdadera aportación consiste en introducir una forma completamente diferente de abordar problemas para los que no conocemos, o resulta inviable describir, un algoritmo explícito.\nComprender este cambio de paradigma será el objetivo de los siguientes capítulos.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programación imperativa"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html",
-    "href": "docs/chapters/01-intro/02-funcional.html",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "Los lenguajes de tercera generación (3GL) supusieron un enorme avance en la construcción de software. El ingeniero describía, paso a paso, el algoritmo que debía ejecutar el ordenador, sin embargo, conforme los sistemas crecían en tamaño y complejidad, comenzó a surgir una pregunta cada vez más importante.\n¿Es realmente necesario describir todos los detalles del procedimiento?\nEn muchos programas, una parte significativa del código no representa el problema que se desea resolver, sino la forma en que el ordenador debe recorrer estructuras de datos, mantener estados temporales o controlar el flujo de ejecución, estas tareas son necesarias para la máquina, pero rara vez forman parte del conocimiento del dominio del problema.\nLa programación funcional propone un cambio de perspectiva: En lugar de describir detalladamente cómo realizar cada paso del algoritmo, el desarrollador expresa qué transformación desea aplicar sobre los datos, el interés deja de centrarse en el procedimiento y pasa a centrarse en el resultado de cada transformación.\n\n\nEn la programación imperativa el estado del programa cambia continuamente.\nPor ejemplo:\nint total = 0\n\nfor (i in ventas) total += i;\nEl algoritmo mantiene una variable cuyo valor cambia en cada iteración, desde el punto de vista del procesador resulta perfectamente válido sin embargo, desde el punto de vista del dominio del problema, esa variable intermedia apenas aporta información. En programación funcional el mismo problema puede expresarse de una forma mucho más cercana a la intención del desarrollador.\ntotal &lt;- sum(ventas)\nEl desarrollador ya no explica cómo recorrer la colección si no que simplemente indica cuál es el resultado que desea obtener, es el propio lenguaje quien decide cómo ejecutar esa operación.\n\n\n\nUna de las características más importantes de la programación funcional consiste en considerar las funciones como elementos que pueden componerse entre sí:\n\nCada función recibe unos datos.\nProduce una transformación.\nEntrega un resultado que puede inyectarse a la siguiente función.\n\nPor ejemplo, utilizando el ecosistema tidyverse de R:\nventas_validas &lt;-\n    ventas |&gt;\n    filter(importe &gt; 0) |&gt;\n    mutate(iva = importe * 0.21) |&gt;\n    arrange(desc(importe))\nCada línea representa una transformación independiente, no aparecen índices, no existen bucles explícitos, las variables temporales prácticamente desaparecen. El código deja de describir el recorrido y comienza a describir una secuencia lógica de transformaciones, esta forma de trabajar facilita enormemente la lectura del programa por que cada operación expresa claramente su intención.\n\n\n\nOtro de los pilares fundamentales de la programación funcional son las funciones puras: Una función pura siempre produce el mismo resultado cuando recibe los mismos parámetros.\n\nNo modifica variables globales.\nNo altera el estado del sistema.\nNo produce efectos secundarios.\n\nPor ejemplo:\nprecio_con_iva &lt;- function(precio) {\n    precio * 1.21\n}\nSu comportamiento es completamente predecible. Esta propiedad simplifica las pruebas, facilita la depuración y permite razonar sobre el software con mucha mayor facilidad.\n\n\n\nEn programación funcional los datos tienden a considerarse inmutables, en lugar de modificar un objeto existente, se genera uno nuevo que representa el resultado de la transformación. Aunque internamente el lenguaje pueda optimizar este proceso, conceptualmente el programa deja de construirse mediante cambios continuos de estado y pasa a entenderse como una cadena de transformaciones sucesivas. Esta filosofía reduce numerosos errores relacionados con estados compartidos, concurrencia y efectos inesperados.\n\n\n\nLa programación funcional no elimina la necesidad de diseñar algoritmos, el ingeniero continúa siendo responsable de definir la lógica que resuelve el problema sin embargo, desplaza parte de la responsabilidad desde el desarrollador hacia el propio lenguaje.\nEl programador deja de describir numerosos mecanismos de bajo nivel y comienza a expresar transformaciones de un nivel mucho más cercano al problema que desea resolver, el resultado son programas más compactos, más expresivos y, en muchos casos, más fáciles de mantener.\n\n\n\nLa evolución de los lenguajes de programación puede interpretarse como una búsqueda constante de niveles superiores de abstracción, en los lenguajes imperativos, el desarrollador describe cada paso del algoritmo, en la programación funcional, describe transformaciones sobre los datos y delega en el lenguaje muchos de los detalles de ejecución aunque el ordenador continúa ejecutando instrucciones.\nPero el ingeniero comienza a expresarse utilizando conceptos cada vez más próximos al problema que desea resolver y cada vez más alejados del funcionamiento interno de la máquina, Este cambio representa un paso más en la evolución de la Ingeniería del Software y, aunque todavía seguimos escribiendo algoritmos, comienza a apreciarse una tendencia que reaparecerá con mucha más fuerza décadas después.\nCada nueva generación de herramientas permite al ingeniero describir qué desea conseguir, mientras delega progresivamente cómo conseguirlo. La programación funcional constituye uno de los primeros pasos importantes en esa dirección.\nEn los capítulos siguientes veremos cómo esa tendencia continúa con los lenguajes declarativos y culmina, al menos por el momento, con los Large Language Models, donde el desarrollador comienza a expresar objetivos e intenciones más que algoritmos detallados.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#del-estado-a-la-transformación",
-    "href": "docs/chapters/01-intro/02-funcional.html#del-estado-a-la-transformación",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "En la programación imperativa el estado del programa cambia continuamente.\nPor ejemplo:\nint total = 0\n\nfor (i in ventas) total += i;\nEl algoritmo mantiene una variable cuyo valor cambia en cada iteración, desde el punto de vista del procesador resulta perfectamente válido sin embargo, desde el punto de vista del dominio del problema, esa variable intermedia apenas aporta información. En programación funcional el mismo problema puede expresarse de una forma mucho más cercana a la intención del desarrollador.\ntotal &lt;- sum(ventas)\nEl desarrollador ya no explica cómo recorrer la colección si no que simplemente indica cuál es el resultado que desea obtener, es el propio lenguaje quien decide cómo ejecutar esa operación.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#composición-de-funciones",
-    "href": "docs/chapters/01-intro/02-funcional.html#composición-de-funciones",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "Una de las características más importantes de la programación funcional consiste en considerar las funciones como elementos que pueden componerse entre sí:\n\nCada función recibe unos datos.\nProduce una transformación.\nEntrega un resultado que puede inyectarse a la siguiente función.\n\nPor ejemplo, utilizando el ecosistema tidyverse de R:\nventas_validas &lt;-\n    ventas |&gt;\n    filter(importe &gt; 0) |&gt;\n    mutate(iva = importe * 0.21) |&gt;\n    arrange(desc(importe))\nCada línea representa una transformación independiente, no aparecen índices, no existen bucles explícitos, las variables temporales prácticamente desaparecen. El código deja de describir el recorrido y comienza a describir una secuencia lógica de transformaciones, esta forma de trabajar facilita enormemente la lectura del programa por que cada operación expresa claramente su intención.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#funciones-puras",
-    "href": "docs/chapters/01-intro/02-funcional.html#funciones-puras",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "Otro de los pilares fundamentales de la programación funcional son las funciones puras: Una función pura siempre produce el mismo resultado cuando recibe los mismos parámetros.\n\nNo modifica variables globales.\nNo altera el estado del sistema.\nNo produce efectos secundarios.\n\nPor ejemplo:\nprecio_con_iva &lt;- function(precio) {\n    precio * 1.21\n}\nSu comportamiento es completamente predecible. Esta propiedad simplifica las pruebas, facilita la depuración y permite razonar sobre el software con mucha mayor facilidad.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#inmutabilidad",
-    "href": "docs/chapters/01-intro/02-funcional.html#inmutabilidad",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "En programación funcional los datos tienden a considerarse inmutables, en lugar de modificar un objeto existente, se genera uno nuevo que representa el resultado de la transformación. Aunque internamente el lenguaje pueda optimizar este proceso, conceptualmente el programa deja de construirse mediante cambios continuos de estado y pasa a entenderse como una cadena de transformaciones sucesivas. Esta filosofía reduce numerosos errores relacionados con estados compartidos, concurrencia y efectos inesperados.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#qué-aporta-realmente-la-programación-funcional",
-    "href": "docs/chapters/01-intro/02-funcional.html#qué-aporta-realmente-la-programación-funcional",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "La programación funcional no elimina la necesidad de diseñar algoritmos, el ingeniero continúa siendo responsable de definir la lógica que resuelve el problema sin embargo, desplaza parte de la responsabilidad desde el desarrollador hacia el propio lenguaje.\nEl programador deja de describir numerosos mecanismos de bajo nivel y comienza a expresar transformaciones de un nivel mucho más cercano al problema que desea resolver, el resultado son programas más compactos, más expresivos y, en muchos casos, más fáciles de mantener.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
-    ]
-  },
-  {
-    "objectID": "docs/chapters/01-intro/02-funcional.html#un-nuevo-nivel-de-abstracción",
-    "href": "docs/chapters/01-intro/02-funcional.html#un-nuevo-nivel-de-abstracción",
-    "title": "Programacion funcional",
-    "section": "",
-    "text": "La evolución de los lenguajes de programación puede interpretarse como una búsqueda constante de niveles superiores de abstracción, en los lenguajes imperativos, el desarrollador describe cada paso del algoritmo, en la programación funcional, describe transformaciones sobre los datos y delega en el lenguaje muchos de los detalles de ejecución aunque el ordenador continúa ejecutando instrucciones.\nPero el ingeniero comienza a expresarse utilizando conceptos cada vez más próximos al problema que desea resolver y cada vez más alejados del funcionamiento interno de la máquina, Este cambio representa un paso más en la evolución de la Ingeniería del Software y, aunque todavía seguimos escribiendo algoritmos, comienza a apreciarse una tendencia que reaparecerá con mucha más fuerza décadas después.\nCada nueva generación de herramientas permite al ingeniero describir qué desea conseguir, mientras delega progresivamente cómo conseguirlo. La programación funcional constituye uno de los primeros pasos importantes en esa dirección.\nEn los capítulos siguientes veremos cómo esa tendencia continúa con los lenguajes declarativos y culmina, al menos por el momento, con los Large Language Models, donde el desarrollador comienza a expresar objetivos e intenciones más que algoritmos detallados.",
-    "crumbs": [
-      "Inicio",
-      "Introducción",
-      "Programacion funcional"
     ]
   },
   {
@@ -585,53 +261,100 @@
     ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html",
-    "href": "docs/chapters/01-intro/06-llm.html",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/06-dl.html",
+    "href": "docs/chapters/01-intro/06-dl.html",
+    "title": "Deep Learning",
     "section": "",
-    "text": "En los apartados anteriores hemos recorrido la evolución de los principales paradigmas de programación.\nLa programación imperativa obligaba al desarrollador a describir de forma precisa el algoritmo que debía ejecutar el ordenador.\nLa programación funcional elevó el nivel de abstracción, permitiendo expresar transformaciones sobre los datos en lugar de describir todos los detalles del procedimiento.\nFinalmente, la programación en lenguaje natural introdujo una idea completamente diferente: expresar el objetivo, el contexto y las restricciones del problema utilizando el propio lenguaje humano.\nSin embargo, esta evolución plantea una pregunta inevitable.\n¿Cómo puede un ordenador comprender un lenguaje tan ambiguo, flexible y lleno de matices como el lenguaje natural?\nLa respuesta se encuentra en una nueva generación de sistemas conocidos como Large Language Models (LLM).\n\n\nUn Large Language Model no es un programa tradicional.\nNo está formado por miles de reglas escritas manualmente.\nNo contiene una enorme colección de árboles de decisión.\nNo implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.\nSu funcionamiento es completamente diferente.\nDurante un proceso denominado entrenamiento, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.\nA partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.\nEl resultado de ese proceso no es un programa lleno de reglas.\nEs un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto.\n\n\n\nCon frecuencia se afirma que un LLM simplemente predice la siguiente palabra.\nAunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.\nDurante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.\nAprende relaciones entre conceptos.\nAprende estilos de escritura.\nAprende estructuras sintácticas.\nAprende asociaciones entre ideas.\nAprende patrones presentes en millones de documentos.\nComo consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.\nEl modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas.\n\n\n\nHasta este momento todos los paradigmas estudiados compartían una característica común.\nEl conocimiento residía en el programa.\nEl desarrollador analizaba el problema.\nDiseñaba un algoritmo.\nLo implementaba mediante un lenguaje de programación.\nY el ordenador ejecutaba exactamente ese conocimiento.\nCon los Large Language Models esta situación cambia radicalmente.\n\nEl conocimiento deja de residir exclusivamente en el programa.\nUna parte fundamental del conocimiento reside ahora en el modelo.\n\nEsta diferencia transforma profundamente la Ingeniería del Software.\nEl ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.\nPuede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar.\n\n\n\nDurante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.\nCada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.\nCon los Large Language Models aparece una nueva posibilidad.\nUna parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.\nEl trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.\nEste cambio no elimina la necesidad de diseñar software.\nAl contrario.\nHace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos.\n\n\n\nLos Large Language Models no sustituyen a la Ingeniería del Software.\nTransforman su papel.\nEl ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.\nLo que cambia es la naturaleza de las herramientas disponibles.\nPor primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.\nYa no programa únicamente instrucciones.\nColabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema.\n\n\n\nComprender qué es un Large Language Model constituye únicamente el primer paso.\nLa siguiente cuestión resulta todavía más interesante.\n¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?\nResponder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.\nEn el siguiente apartado analizaremos los Transformers, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales."
+    "text": "Si cada algoritmo está diseñado para resolver una determinada familia de problemas y el número de problemas del mundo real es prácticamente ilimitado, parecería lógico pensar que también sería necesario desarrollar un número ilimitado de algoritmos, aquí aparecen las Redes Neuronales.\nLas redes neuronales artificiales no eran una idea nueva. Sus primeros modelos se remontan a la década de 1940 con los trabajos de McCulloch y Pitts (McCulloch y Pitts 1943), y pocos años después Frank Rosenblatt presentó el perceptrón, considerado la primera red neuronal capaz de aprender a partir de ejemplos (Rosenblatt 1958). Durante las décadas siguientes la investigación continuó avanzando, alternando periodos de entusiasmo con otros de profundo escepticismo, especialmente tras la publicación de Perceptrons de Marvin Minsky y Seymour Papert, que puso de manifiesto importantes limitaciones de los modelos existentes (Minsky y Papert 1969).\nLejos de desaparecer, las redes neuronales continuaron evolucionando, la aparición del algoritmo de retropropagación permitió entrenar redes de mayor complejidad (Rumelhart et al. 1986), y poco después comenzaron a demostrar su utilidad en aplicaciones reales como el reconocimiento automático de caracteres manuscritos (LeCun et al. 1989); sin embargo, durante muchos años siguieron siendo una técnica más dentro del amplio conjunto de algoritmos de Machine Learning, en numerosos problemas, otros métodos ofrecían mejores resultados con un menor coste computacional.\nEl cambio comenzó a producirse cuando coincidieron varios factores. La capacidad de cálculo de los ordenadores aumentó de forma extraordinaria, aparecieron procesadores especialmente adecuados para realizar millones de operaciones en paralelo y la cantidad de datos disponibles creció a una escala nunca antes vista. En ese nuevo contexto, las redes neuronales empezaron a mostrar un comportamiento muy diferente al observado durante las décadas anteriores.\nEn 2006 Geoffrey Hinton y Ruslan Salakhutdinov demostraron que era posible entrenar redes neuronales mucho más profundas que las utilizadas hasta entonces (Hinton y Salakhutdinov 2006). Aquella línea de investigación culminó pocos años después con AlexNet, una red neuronal que obtuvo unos resultados espectaculares en el concurso internacional ImageNet y marcó un punto de inflexión para la comunidad científica (Krizhevsky et al. 2012).\nFue entonces cuando comenzó a popularizarse el término Deep Learning. Más que una nueva disciplina, describía una nueva generación de redes neuronales caracterizadas por un mayor número de capas y una capacidad muy superior para aprender representaciones complejas de los datos. La idea fundamental seguía siendo la misma que décadas atrás, pero la tecnología había alcanzado por fin el nivel necesario para explotar todo su potencial.\nEl Deep Learning no eliminó los algoritmos clásicos de Machine Learning, que continúan siendo la mejor elección en numerosos problemas. Su verdadera aportación fue demostrar que una misma familia de modelos podía abordar tareas extraordinariamente diversas, desde el reconocimiento de imágenes hasta la traducción automática, el reconocimiento del habla o la generación de texto, aquella aparente necesidad de crear un algoritmo diferente para cada problema comenzó a diluirse, no porque existiera un algoritmo universal, sino porque las redes neuronales demostraron una capacidad de adaptación muy superior a la imaginada durante sus primeras décadas de existencia.\nPara comprender por qué esto fue posible es necesario conocer cómo está construida una red neuronal y cuál es el mecanismo que le permite aprender a partir de los datos.\n\n\nA pesar de su nombre, una red neuronal artificial está muy lejos de reproducir el funcionamiento del cerebro humano. El término neuronal responde más a una inspiración biológica que a una copia de la realidad. Sus primeros investigadores observaron que el cerebro era capaz de aprender a partir de la experiencia y se preguntaron si sería posible construir modelos matemáticos que, de forma muy simplificada, presentaran un comportamiento similar.\nLa idea era sorprendentemente sencilla. En lugar de diseñar un algoritmo específico para cada problema, se construía una estructura formada por un gran número de unidades muy simples, denominadas neuronas artificiales, conectadas entre sí. Cada una de ellas recibía información procedente de otras neuronas, realizaba un pequeño cálculo matemático y transmitía el resultado a las siguientes.\nDe forma aislada, una neurona artificial apenas tiene capacidad para resolver ningún problema interesante. Su funcionamiento consiste únicamente en combinar una serie de valores numéricos, aplicar una función matemática y producir un nuevo valor como resultado. Sin embargo, cuando miles o incluso millones de estas neuronas trabajan conjuntamente, comienzan a emerger comportamientos mucho más complejos.\nLas conexiones entre las neuronas no tienen todas la misma importancia. Cada una posee un valor numérico asociado, denominado peso, que determina cuánto influye una señal sobre la siguiente neurona. Durante el entrenamiento estos pesos se modifican continuamente, reforzando aquellas conexiones que ayudan a obtener respuestas correctas y debilitando las que producen errores. En realidad, aprender no significa otra cosa que encontrar la combinación de millones de pesos que mejor representa las relaciones existentes en los datos.\nLas neuronas suelen organizarse en capas. Una primera capa recibe la información de entrada, varias capas intermedias transforman progresivamente esa información y una última capa genera el resultado final. Cuantas más capas intervienen en ese proceso, mayor es la capacidad del modelo para descubrir relaciones complejas. Precisamente de esa mayor profundidad procede el término Deep Learning.\nLa enorme ventaja de este enfoque es que la estructura general de la red apenas cambia de un problema a otro. Lo que realmente varía son los valores de sus millones de pesos, que se ajustan automáticamente durante el entrenamiento. Una misma arquitectura puede aprender a reconocer objetos en imágenes, traducir textos entre idiomas, identificar enfermedades a partir de pruebas médicas o mantener una conversación con un usuario. No porque haya sido programada específicamente para cada una de esas tareas, sino porque ha aprendido patrones diferentes modificando sus conexiones internas.\nComprender esta idea resulta fundamental para entender la evolución reciente de la Inteligencia Artificial. Sin embargo, todavía queda una pregunta por responder. Si una red neuronal contiene millones o incluso miles de millones de pesos, ¿cómo consigue ajustarlos para aprender sin que un ingeniero tenga que modificarlos uno a uno?\n\n\n\nUna red neuronal aprende mediante un proceso iterativo de prueba y error. Durante el entrenamiento recibe un gran número de ejemplos, genera una respuesta para cada uno de ellos y la compara con el resultado esperado. Si la respuesta es correcta, apenas realiza cambios. Si se ha equivocado, modifica ligeramente los pesos de sus conexiones para intentar reducir ese error en la siguiente ocasión.\nEste proceso se repite miles, millones o incluso miles de millones de veces. Cada modificación individual es prácticamente insignificante, pero la acumulación de todos esos pequeños ajustes termina construyendo un modelo capaz de reconocer patrones muy complejos.\nLa clave del aprendizaje no consiste en memorizar los ejemplos utilizados durante el entrenamiento, sino en encontrar una configuración de pesos que permita responder correctamente también ante datos nuevos. Dicho de otro modo, la red no aprende respuestas concretas, sino las relaciones matemáticas que existen entre los datos.\nTodo este proceso se realiza de forma automática mediante algoritmos de optimización que calculan cómo deben modificarse los pesos para reducir progresivamente el error. Aunque la base matemática que lo hace posible es compleja, desde el punto de vista conceptual la idea resulta sencilla: la red prueba, mide el error, ajusta sus conexiones y vuelve a intentarlo una y otra vez hasta que alcanza un resultado satisfactorio.\nEste mecanismo de aprendizaje, combinado con grandes cantidades de datos y una enorme capacidad de cálculo, es el que ha convertido a las redes neuronales profundas en la base de la mayoría de los sistemas modernos de Inteligencia Artificial.\n\n\n\nA medida que las redes neuronales aumentaban de tamaño comenzaron a aparecer capacidades que antes parecían inalcanzables. Ya no solo reconocían imágenes o clasificaban datos. También empezaban a comprender relaciones complejas entre palabras, frases y documentos completos. Aquello abrió el camino hacia una nueva generación de modelos conocidos como Large Language Models (LLM).",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Deep Learning"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#un-modelo-entrenado-no-programado",
-    "href": "docs/chapters/01-intro/06-llm.html#un-modelo-entrenado-no-programado",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/06-dl.html#qué-es-una-red-neuronal",
+    "href": "docs/chapters/01-intro/06-dl.html#qué-es-una-red-neuronal",
+    "title": "Deep Learning",
     "section": "",
-    "text": "Un Large Language Model no es un programa tradicional.\nNo está formado por miles de reglas escritas manualmente.\nNo contiene una enorme colección de árboles de decisión.\nNo implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.\nSu funcionamiento es completamente diferente.\nDurante un proceso denominado entrenamiento, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.\nA partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.\nEl resultado de ese proceso no es un programa lleno de reglas.\nEs un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto."
+    "text": "A pesar de su nombre, una red neuronal artificial está muy lejos de reproducir el funcionamiento del cerebro humano. El término neuronal responde más a una inspiración biológica que a una copia de la realidad. Sus primeros investigadores observaron que el cerebro era capaz de aprender a partir de la experiencia y se preguntaron si sería posible construir modelos matemáticos que, de forma muy simplificada, presentaran un comportamiento similar.\nLa idea era sorprendentemente sencilla. En lugar de diseñar un algoritmo específico para cada problema, se construía una estructura formada por un gran número de unidades muy simples, denominadas neuronas artificiales, conectadas entre sí. Cada una de ellas recibía información procedente de otras neuronas, realizaba un pequeño cálculo matemático y transmitía el resultado a las siguientes.\nDe forma aislada, una neurona artificial apenas tiene capacidad para resolver ningún problema interesante. Su funcionamiento consiste únicamente en combinar una serie de valores numéricos, aplicar una función matemática y producir un nuevo valor como resultado. Sin embargo, cuando miles o incluso millones de estas neuronas trabajan conjuntamente, comienzan a emerger comportamientos mucho más complejos.\nLas conexiones entre las neuronas no tienen todas la misma importancia. Cada una posee un valor numérico asociado, denominado peso, que determina cuánto influye una señal sobre la siguiente neurona. Durante el entrenamiento estos pesos se modifican continuamente, reforzando aquellas conexiones que ayudan a obtener respuestas correctas y debilitando las que producen errores. En realidad, aprender no significa otra cosa que encontrar la combinación de millones de pesos que mejor representa las relaciones existentes en los datos.\nLas neuronas suelen organizarse en capas. Una primera capa recibe la información de entrada, varias capas intermedias transforman progresivamente esa información y una última capa genera el resultado final. Cuantas más capas intervienen en ese proceso, mayor es la capacidad del modelo para descubrir relaciones complejas. Precisamente de esa mayor profundidad procede el término Deep Learning.\nLa enorme ventaja de este enfoque es que la estructura general de la red apenas cambia de un problema a otro. Lo que realmente varía son los valores de sus millones de pesos, que se ajustan automáticamente durante el entrenamiento. Una misma arquitectura puede aprender a reconocer objetos en imágenes, traducir textos entre idiomas, identificar enfermedades a partir de pruebas médicas o mantener una conversación con un usuario. No porque haya sido programada específicamente para cada una de esas tareas, sino porque ha aprendido patrones diferentes modificando sus conexiones internas.\nComprender esta idea resulta fundamental para entender la evolución reciente de la Inteligencia Artificial. Sin embargo, todavía queda una pregunta por responder. Si una red neuronal contiene millones o incluso miles de millones de pesos, ¿cómo consigue ajustarlos para aprender sin que un ingeniero tenga que modificarlos uno a uno?",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Deep Learning"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#mucho-más-que-predecir-palabras",
-    "href": "docs/chapters/01-intro/06-llm.html#mucho-más-que-predecir-palabras",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/06-dl.html#cómo-aprende-una-red-neuronal",
+    "href": "docs/chapters/01-intro/06-dl.html#cómo-aprende-una-red-neuronal",
+    "title": "Deep Learning",
     "section": "",
-    "text": "Con frecuencia se afirma que un LLM simplemente predice la siguiente palabra.\nAunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.\nDurante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.\nAprende relaciones entre conceptos.\nAprende estilos de escritura.\nAprende estructuras sintácticas.\nAprende asociaciones entre ideas.\nAprende patrones presentes en millones de documentos.\nComo consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.\nEl modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas."
+    "text": "Una red neuronal aprende mediante un proceso iterativo de prueba y error. Durante el entrenamiento recibe un gran número de ejemplos, genera una respuesta para cada uno de ellos y la compara con el resultado esperado. Si la respuesta es correcta, apenas realiza cambios. Si se ha equivocado, modifica ligeramente los pesos de sus conexiones para intentar reducir ese error en la siguiente ocasión.\nEste proceso se repite miles, millones o incluso miles de millones de veces. Cada modificación individual es prácticamente insignificante, pero la acumulación de todos esos pequeños ajustes termina construyendo un modelo capaz de reconocer patrones muy complejos.\nLa clave del aprendizaje no consiste en memorizar los ejemplos utilizados durante el entrenamiento, sino en encontrar una configuración de pesos que permita responder correctamente también ante datos nuevos. Dicho de otro modo, la red no aprende respuestas concretas, sino las relaciones matemáticas que existen entre los datos.\nTodo este proceso se realiza de forma automática mediante algoritmos de optimización que calculan cómo deben modificarse los pesos para reducir progresivamente el error. Aunque la base matemática que lo hace posible es compleja, desde el punto de vista conceptual la idea resulta sencilla: la red prueba, mide el error, ajusta sus conexiones y vuelve a intentarlo una y otra vez hasta que alcanza un resultado satisfactorio.\nEste mecanismo de aprendizaje, combinado con grandes cantidades de datos y una enorme capacidad de cálculo, es el que ha convertido a las redes neuronales profundas en la base de la mayoría de los sistemas modernos de Inteligencia Artificial.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Deep Learning"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#el-gran-cambio-de-paradigma",
-    "href": "docs/chapters/01-intro/06-llm.html#el-gran-cambio-de-paradigma",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/06-dl.html#siguiente-paso",
+    "href": "docs/chapters/01-intro/06-dl.html#siguiente-paso",
+    "title": "Deep Learning",
     "section": "",
-    "text": "Hasta este momento todos los paradigmas estudiados compartían una característica común.\nEl conocimiento residía en el programa.\nEl desarrollador analizaba el problema.\nDiseñaba un algoritmo.\nLo implementaba mediante un lenguaje de programación.\nY el ordenador ejecutaba exactamente ese conocimiento.\nCon los Large Language Models esta situación cambia radicalmente.\n\nEl conocimiento deja de residir exclusivamente en el programa.\nUna parte fundamental del conocimiento reside ahora en el modelo.\n\nEsta diferencia transforma profundamente la Ingeniería del Software.\nEl ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.\nPuede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar."
+    "text": "A medida que las redes neuronales aumentaban de tamaño comenzaron a aparecer capacidades que antes parecían inalcanzables. Ya no solo reconocían imágenes o clasificaban datos. También empezaban a comprender relaciones complejas entre palabras, frases y documentos completos. Aquello abrió el camino hacia una nueva generación de modelos conocidos como Large Language Models (LLM).",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Deep Learning"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#del-desarrollo-al-aprovechamiento-del-conocimiento",
-    "href": "docs/chapters/01-intro/06-llm.html#del-desarrollo-al-aprovechamiento-del-conocimiento",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/01-imperativa.html",
+    "href": "docs/chapters/01-intro/01-imperativa.html",
+    "title": "Programación imperativa",
     "section": "",
-    "text": "Durante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.\nCada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.\nCon los Large Language Models aparece una nueva posibilidad.\nUna parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.\nEl trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.\nEste cambio no elimina la necesidad de diseñar software.\nAl contrario.\nHace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos."
+    "text": "Desde los primeros ordenadores hasta la actualidad, la inmensa mayoría del software se ha construido siguiendo un mismo principio fundamental.\nEl desarrollador describe explícitamente cómo debe resolverse un problema.\nEs decir, un programa no contiene únicamente el objetivo que se desea alcanzar, si no que contiene también la secuencia exacta de pasos necesarios para alcanzarlo. Un lenguaje de tercera generación (3GL), como C, Java, C++, COBOL o Python, permite expresar esa secuencia mediante instrucciones perfectamente definidas y sin ambigüedad.\nUn programa está formado por elementos como:\n\nVariables.\nTipos de datos.\nExpresiones.\nOperadores.\nCondiciones.\nBucles.\nFunciones y procedimientos.\nClases y objetos.\nEstructuras de datos.\n\nEstos elementos permiten construir algoritmos, los cuales no son mas que una secuencia ordenada de instrucciones que describe, paso a paso, cómo resolver un problema. Cada instrucción modifica el estado del sistema de una forma conocida y predecible. El procesador ejecuta exactamente las instrucciones escritas por el desarrollador, en el orden establecido por éste y siguiendo las reglas del lenguaje de programación.\nPor ejemplo:\nif (saldo &gt;= importe) {\n    saldo -= importe;\n    realizarTransferencia();\n} else {\n    throw new SaldoInsuficienteException();\n}\nEn este ejemplo no existe ninguna interpretación posible.\nSi la condición se cumple, se ejecutarán exactamente las instrucciones del primer bloque. Si no se cumple, se ejecutará el segundo. El resultado será siempre el mismo para una misma entrada. La responsabilidad de decidir qué hacer, cuándo hacerlo, cómo hacerlo y en qué orden hacerlo recae completamente sobre el ingeniero de software. El ordenador no toma decisiones. Ejecuta las instrucciones que recibe.\n\n\nEste paradigma ha demostrado durante más de medio siglo ser extraordinariamente eficaz. Permite construir sistemas que son:\n\nDeterministas.\nReproducibles.\nVerificables.\nDepurables.\nTrazables.\nMantenibles.\n\nGracias a ello se han desarrollado sistemas críticos como:\n\nSistemas bancarios.\nControl del tráfico aéreo.\nTelecomunicaciones.\nSistemas industriales.\nSatélites.\nSistemas sanitarios.\nAdministración pública.\n\nDurante décadas, este modelo ha constituido la base de la Ingeniería del Software.\n\n\n\nSin embargo, este enfoque tiene un requisito imprescindible: El ingeniero debe conocer previamente el algoritmo que resuelve el problema.. Antes de escribir una sola línea de código debe ser capaz de responder preguntas como:\n\n¿Qué pasos debo ejecutar?\n¿En qué orden?\n¿Qué decisiones deben tomarse?\n¿Qué casos especiales existen?\n¿Cómo debo gestionar los errores?\n¿Qué información necesito en cada momento?\n\nEn otras palabras:\n\nEl conocimiento necesario para resolver el problema está contenido explícitamente en el programa.\n\nEl ordenador simplemente ejecuta ese conocimiento.\n\n\n\nExisten, sin embargo, problemas para los que resulta extremadamente difícil escribir un algoritmo preciso.\nPor ejemplo:\n\nResumir un contrato de cien páginas.\nExplicar el significado de un poema.\nTraducir un documento técnico.\nDetectar el tono de una conversación.\nResponder preguntas sobre miles de documentos.\nMantener una conversación natural.\n\nLas personas realizamos estas tareas de manera cotidiana; sin embargo, describir mediante una secuencia exacta de instrucciones cómo llevarlas a cabo resulta extraordinariamente complejo. Durante décadas se intentó resolver este problema mediante reglas, gramáticas, árboles sintácticos, sistemas expertos y numerosas técnicas de Procesamiento del Lenguaje Natural que, aunque obtuvieron buenos resultados en ámbitos concretos, ninguna consiguió ofrecer una solución general.\nEs precisamente en este contexto donde aparecen los Large Language Models (LLM). Su importancia no reside únicamente en que producen texto, su verdadera aportación consiste en introducir una forma completamente diferente de abordar problemas para los que no conocemos, o resulta inviable describir, un algoritmo explícito.\nComprender este cambio de paradigma será el objetivo de los siguientes capítulos.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programación imperativa"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#un-nuevo-papel-para-el-ingeniero",
-    "href": "docs/chapters/01-intro/06-llm.html#un-nuevo-papel-para-el-ingeniero",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/01-imperativa.html#las-fortalezas-del-modelo",
+    "href": "docs/chapters/01-intro/01-imperativa.html#las-fortalezas-del-modelo",
+    "title": "Programación imperativa",
     "section": "",
-    "text": "Los Large Language Models no sustituyen a la Ingeniería del Software.\nTransforman su papel.\nEl ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.\nLo que cambia es la naturaleza de las herramientas disponibles.\nPor primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.\nYa no programa únicamente instrucciones.\nColabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema."
+    "text": "Este paradigma ha demostrado durante más de medio siglo ser extraordinariamente eficaz. Permite construir sistemas que son:\n\nDeterministas.\nReproducibles.\nVerificables.\nDepurables.\nTrazables.\nMantenibles.\n\nGracias a ello se han desarrollado sistemas críticos como:\n\nSistemas bancarios.\nControl del tráfico aéreo.\nTelecomunicaciones.\nSistemas industriales.\nSatélites.\nSistemas sanitarios.\nAdministración pública.\n\nDurante décadas, este modelo ha constituido la base de la Ingeniería del Software.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programación imperativa"
+    ]
   },
   {
-    "objectID": "docs/chapters/01-intro/06-llm.html#el-siguiente-paso",
-    "href": "docs/chapters/01-intro/06-llm.html#el-siguiente-paso",
-    "title": "Large Language Models",
+    "objectID": "docs/chapters/01-intro/01-imperativa.html#el-requisito-fundamental",
+    "href": "docs/chapters/01-intro/01-imperativa.html#el-requisito-fundamental",
+    "title": "Programación imperativa",
     "section": "",
-    "text": "Comprender qué es un Large Language Model constituye únicamente el primer paso.\nLa siguiente cuestión resulta todavía más interesante.\n¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?\nResponder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.\nEn el siguiente apartado analizaremos los Transformers, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales."
+    "text": "Sin embargo, este enfoque tiene un requisito imprescindible: El ingeniero debe conocer previamente el algoritmo que resuelve el problema.. Antes de escribir una sola línea de código debe ser capaz de responder preguntas como:\n\n¿Qué pasos debo ejecutar?\n¿En qué orden?\n¿Qué decisiones deben tomarse?\n¿Qué casos especiales existen?\n¿Cómo debo gestionar los errores?\n¿Qué información necesito en cada momento?\n\nEn otras palabras:\n\nEl conocimiento necesario para resolver el problema está contenido explícitamente en el programa.\n\nEl ordenador simplemente ejecuta ese conocimiento.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programación imperativa"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/01-imperativa.html#cuando-el-algoritmo-no-es-evidente",
+    "href": "docs/chapters/01-intro/01-imperativa.html#cuando-el-algoritmo-no-es-evidente",
+    "title": "Programación imperativa",
+    "section": "",
+    "text": "Existen, sin embargo, problemas para los que resulta extremadamente difícil escribir un algoritmo preciso.\nPor ejemplo:\n\nResumir un contrato de cien páginas.\nExplicar el significado de un poema.\nTraducir un documento técnico.\nDetectar el tono de una conversación.\nResponder preguntas sobre miles de documentos.\nMantener una conversación natural.\n\nLas personas realizamos estas tareas de manera cotidiana; sin embargo, describir mediante una secuencia exacta de instrucciones cómo llevarlas a cabo resulta extraordinariamente complejo. Durante décadas se intentó resolver este problema mediante reglas, gramáticas, árboles sintácticos, sistemas expertos y numerosas técnicas de Procesamiento del Lenguaje Natural que, aunque obtuvieron buenos resultados en ámbitos concretos, ninguna consiguió ofrecer una solución general.\nEs precisamente en este contexto donde aparecen los Large Language Models (LLM). Su importancia no reside únicamente en que producen texto, su verdadera aportación consiste en introducir una forma completamente diferente de abordar problemas para los que no conocemos, o resulta inviable describir, un algoritmo explícito.\nComprender este cambio de paradigma será el objetivo de los siguientes capítulos.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programación imperativa"
+    ]
   },
   {
     "objectID": "docs/chapters/01-intro/08-llm.html",
@@ -644,6 +367,156 @@
       "Introducción",
       "Large Language Models"
     ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html",
+    "href": "docs/chapters/01-intro/02-funcional.html",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "Los lenguajes de tercera generación (3GL) supusieron un enorme avance en la construcción de software. El ingeniero describía, paso a paso, el algoritmo que debía ejecutar el ordenador, sin embargo, conforme los sistemas crecían en tamaño y complejidad, comenzó a surgir una pregunta cada vez más importante.\n¿Es realmente necesario describir todos los detalles del procedimiento?\nEn muchos programas, una parte significativa del código no representa el problema que se desea resolver, sino la forma en que el ordenador debe recorrer estructuras de datos, mantener estados temporales o controlar el flujo de ejecución, estas tareas son necesarias para la máquina, pero rara vez forman parte del conocimiento del dominio del problema.\nLa programación funcional propone un cambio de perspectiva: En lugar de describir detalladamente cómo realizar cada paso del algoritmo, el desarrollador expresa qué transformación desea aplicar sobre los datos, el interés deja de centrarse en el procedimiento y pasa a centrarse en el resultado de cada transformación.\n\n\nEn la programación imperativa el estado del programa cambia continuamente.\nPor ejemplo:\nint total = 0\n\nfor (i in ventas) total += i;\nEl algoritmo mantiene una variable cuyo valor cambia en cada iteración, desde el punto de vista del procesador resulta perfectamente válido sin embargo, desde el punto de vista del dominio del problema, esa variable intermedia apenas aporta información. En programación funcional el mismo problema puede expresarse de una forma mucho más cercana a la intención del desarrollador.\ntotal &lt;- sum(ventas)\nEl desarrollador ya no explica cómo recorrer la colección si no que simplemente indica cuál es el resultado que desea obtener, es el propio lenguaje quien decide cómo ejecutar esa operación.\n\n\n\nUna de las características más importantes de la programación funcional consiste en considerar las funciones como elementos que pueden componerse entre sí:\n\nCada función recibe unos datos.\nProduce una transformación.\nEntrega un resultado que puede inyectarse a la siguiente función.\n\nPor ejemplo, utilizando el ecosistema tidyverse de R:\nventas_validas &lt;-\n    ventas |&gt;\n    filter(importe &gt; 0) |&gt;\n    mutate(iva = importe * 0.21) |&gt;\n    arrange(desc(importe))\nCada línea representa una transformación independiente, no aparecen índices, no existen bucles explícitos, las variables temporales prácticamente desaparecen. El código deja de describir el recorrido y comienza a describir una secuencia lógica de transformaciones, esta forma de trabajar facilita enormemente la lectura del programa por que cada operación expresa claramente su intención.\n\n\n\nOtro de los pilares fundamentales de la programación funcional son las funciones puras: Una función pura siempre produce el mismo resultado cuando recibe los mismos parámetros.\n\nNo modifica variables globales.\nNo altera el estado del sistema.\nNo produce efectos secundarios.\n\nPor ejemplo:\nprecio_con_iva &lt;- function(precio) {\n    precio * 1.21\n}\nSu comportamiento es completamente predecible. Esta propiedad simplifica las pruebas, facilita la depuración y permite razonar sobre el software con mucha mayor facilidad.\n\n\n\nEn programación funcional los datos tienden a considerarse inmutables, en lugar de modificar un objeto existente, se genera uno nuevo que representa el resultado de la transformación. Aunque internamente el lenguaje pueda optimizar este proceso, conceptualmente el programa deja de construirse mediante cambios continuos de estado y pasa a entenderse como una cadena de transformaciones sucesivas. Esta filosofía reduce numerosos errores relacionados con estados compartidos, concurrencia y efectos inesperados.\n\n\n\nLa programación funcional no elimina la necesidad de diseñar algoritmos, el ingeniero continúa siendo responsable de definir la lógica que resuelve el problema sin embargo, desplaza parte de la responsabilidad desde el desarrollador hacia el propio lenguaje.\nEl programador deja de describir numerosos mecanismos de bajo nivel y comienza a expresar transformaciones de un nivel mucho más cercano al problema que desea resolver, el resultado son programas más compactos, más expresivos y, en muchos casos, más fáciles de mantener.\n\n\n\nLa evolución de los lenguajes de programación puede interpretarse como una búsqueda constante de niveles superiores de abstracción, en los lenguajes imperativos, el desarrollador describe cada paso del algoritmo, en la programación funcional, describe transformaciones sobre los datos y delega en el lenguaje muchos de los detalles de ejecución aunque el ordenador continúa ejecutando instrucciones.\nPero el ingeniero comienza a expresarse utilizando conceptos cada vez más próximos al problema que desea resolver y cada vez más alejados del funcionamiento interno de la máquina, Este cambio representa un paso más en la evolución de la Ingeniería del Software y, aunque todavía seguimos escribiendo algoritmos, comienza a apreciarse una tendencia que reaparecerá con mucha más fuerza décadas después.\nCada nueva generación de herramientas permite al ingeniero describir qué desea conseguir, mientras delega progresivamente cómo conseguirlo. La programación funcional constituye uno de los primeros pasos importantes en esa dirección.\nEn los capítulos siguientes veremos cómo esa tendencia continúa con los lenguajes declarativos y culmina, al menos por el momento, con los Large Language Models, donde el desarrollador comienza a expresar objetivos e intenciones más que algoritmos detallados.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#del-estado-a-la-transformación",
+    "href": "docs/chapters/01-intro/02-funcional.html#del-estado-a-la-transformación",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "En la programación imperativa el estado del programa cambia continuamente.\nPor ejemplo:\nint total = 0\n\nfor (i in ventas) total += i;\nEl algoritmo mantiene una variable cuyo valor cambia en cada iteración, desde el punto de vista del procesador resulta perfectamente válido sin embargo, desde el punto de vista del dominio del problema, esa variable intermedia apenas aporta información. En programación funcional el mismo problema puede expresarse de una forma mucho más cercana a la intención del desarrollador.\ntotal &lt;- sum(ventas)\nEl desarrollador ya no explica cómo recorrer la colección si no que simplemente indica cuál es el resultado que desea obtener, es el propio lenguaje quien decide cómo ejecutar esa operación.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#composición-de-funciones",
+    "href": "docs/chapters/01-intro/02-funcional.html#composición-de-funciones",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "Una de las características más importantes de la programación funcional consiste en considerar las funciones como elementos que pueden componerse entre sí:\n\nCada función recibe unos datos.\nProduce una transformación.\nEntrega un resultado que puede inyectarse a la siguiente función.\n\nPor ejemplo, utilizando el ecosistema tidyverse de R:\nventas_validas &lt;-\n    ventas |&gt;\n    filter(importe &gt; 0) |&gt;\n    mutate(iva = importe * 0.21) |&gt;\n    arrange(desc(importe))\nCada línea representa una transformación independiente, no aparecen índices, no existen bucles explícitos, las variables temporales prácticamente desaparecen. El código deja de describir el recorrido y comienza a describir una secuencia lógica de transformaciones, esta forma de trabajar facilita enormemente la lectura del programa por que cada operación expresa claramente su intención.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#funciones-puras",
+    "href": "docs/chapters/01-intro/02-funcional.html#funciones-puras",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "Otro de los pilares fundamentales de la programación funcional son las funciones puras: Una función pura siempre produce el mismo resultado cuando recibe los mismos parámetros.\n\nNo modifica variables globales.\nNo altera el estado del sistema.\nNo produce efectos secundarios.\n\nPor ejemplo:\nprecio_con_iva &lt;- function(precio) {\n    precio * 1.21\n}\nSu comportamiento es completamente predecible. Esta propiedad simplifica las pruebas, facilita la depuración y permite razonar sobre el software con mucha mayor facilidad.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#inmutabilidad",
+    "href": "docs/chapters/01-intro/02-funcional.html#inmutabilidad",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "En programación funcional los datos tienden a considerarse inmutables, en lugar de modificar un objeto existente, se genera uno nuevo que representa el resultado de la transformación. Aunque internamente el lenguaje pueda optimizar este proceso, conceptualmente el programa deja de construirse mediante cambios continuos de estado y pasa a entenderse como una cadena de transformaciones sucesivas. Esta filosofía reduce numerosos errores relacionados con estados compartidos, concurrencia y efectos inesperados.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#qué-aporta-realmente-la-programación-funcional",
+    "href": "docs/chapters/01-intro/02-funcional.html#qué-aporta-realmente-la-programación-funcional",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "La programación funcional no elimina la necesidad de diseñar algoritmos, el ingeniero continúa siendo responsable de definir la lógica que resuelve el problema sin embargo, desplaza parte de la responsabilidad desde el desarrollador hacia el propio lenguaje.\nEl programador deja de describir numerosos mecanismos de bajo nivel y comienza a expresar transformaciones de un nivel mucho más cercano al problema que desea resolver, el resultado son programas más compactos, más expresivos y, en muchos casos, más fáciles de mantener.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/02-funcional.html#un-nuevo-nivel-de-abstracción",
+    "href": "docs/chapters/01-intro/02-funcional.html#un-nuevo-nivel-de-abstracción",
+    "title": "Programacion funcional",
+    "section": "",
+    "text": "La evolución de los lenguajes de programación puede interpretarse como una búsqueda constante de niveles superiores de abstracción, en los lenguajes imperativos, el desarrollador describe cada paso del algoritmo, en la programación funcional, describe transformaciones sobre los datos y delega en el lenguaje muchos de los detalles de ejecución aunque el ordenador continúa ejecutando instrucciones.\nPero el ingeniero comienza a expresarse utilizando conceptos cada vez más próximos al problema que desea resolver y cada vez más alejados del funcionamiento interno de la máquina, Este cambio representa un paso más en la evolución de la Ingeniería del Software y, aunque todavía seguimos escribiendo algoritmos, comienza a apreciarse una tendencia que reaparecerá con mucha más fuerza décadas después.\nCada nueva generación de herramientas permite al ingeniero describir qué desea conseguir, mientras delega progresivamente cómo conseguirlo. La programación funcional constituye uno de los primeros pasos importantes en esa dirección.\nEn los capítulos siguientes veremos cómo esa tendencia continúa con los lenguajes declarativos y culmina, al menos por el momento, con los Large Language Models, donde el desarrollador comienza a expresar objetivos e intenciones más que algoritmos detallados.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Programacion funcional"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/07-watson.html",
+    "href": "docs/chapters/01-intro/07-watson.html",
+    "title": "Antes de los LLM",
+    "section": "",
+    "text": "Cuando hoy se habla de Inteligencia Artificial es habitual pensar inmediatamente en ChatGPT, Claude, Gemini o cualquier otro modelo de lenguaje. Sin embargo, la idea de construir sistemas capaces de comprender preguntas formuladas en lenguaje natural y responder de forma inteligente es muy anterior a la aparición de los Large Language Models.\nUno de los ejemplos más conocidos fue Watson, desarrollado por IBM(Ferrucci et al. 2010). En 2011 alcanzó notoriedad internacional al derrotar a los mejores concursantes humanos en el programa de televisión Jeopardy!, un concurso que exige comprender preguntas complejas, interpretar juegos de palabras y localizar rápidamente la respuesta más adecuada.\nAunque desde el exterior Watson parecía mantener una conversación con los concursantes, su funcionamiento era muy diferente al de un LLM moderno. No se basaba en una única red neuronal de grandes dimensiones, sino en la integración de numerosas tecnologías especializadas que trabajaban de forma coordinada(Ferrucci et al. 2010). El sistema combinaba procesamiento del lenguaje natural, búsqueda de información, aprendizaje automático, análisis estadístico y mecanismos de razonamiento para generar varias respuestas posibles y seleccionar aquella que ofrecía un mayor grado de confianza.\nWatson representó un extraordinario logro de la Ingeniería del Software y de la Inteligencia Artificial de su tiempo. Demostró que era posible construir sistemas capaces de interpretar preguntas expresadas en lenguaje natural y ofrecer respuestas útiles, pero también puso de manifiesto la enorme complejidad que suponía integrar y mantener un gran número de componentes especializados.\nLa siguiente gran evolución no consistió únicamente en mejorar cada uno de esos componentes, sino en cambiar el enfoque. En lugar de construir un sistema formado por numerosos módulos independientes, la investigación comenzó a explorar la posibilidad de que una única red neuronal aprendiera por sí misma muchas de esas capacidades durante su entrenamiento.\nEse cambio de paradigma dio origen a una nueva generación de sistemas: los Large Language Models, o LLM.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Antes de los LLM"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/07-watson.html#de-watson-a-los-llm",
+    "href": "docs/chapters/01-intro/07-watson.html#de-watson-a-los-llm",
+    "title": "Antes de los LLM",
+    "section": "",
+    "text": "Cuando hoy se habla de Inteligencia Artificial es habitual pensar inmediatamente en ChatGPT, Claude, Gemini o cualquier otro modelo de lenguaje. Sin embargo, la idea de construir sistemas capaces de comprender preguntas formuladas en lenguaje natural y responder de forma inteligente es muy anterior a la aparición de los Large Language Models.\nUno de los ejemplos más conocidos fue Watson, desarrollado por IBM(Ferrucci et al. 2010). En 2011 alcanzó notoriedad internacional al derrotar a los mejores concursantes humanos en el programa de televisión Jeopardy!, un concurso que exige comprender preguntas complejas, interpretar juegos de palabras y localizar rápidamente la respuesta más adecuada.\nAunque desde el exterior Watson parecía mantener una conversación con los concursantes, su funcionamiento era muy diferente al de un LLM moderno. No se basaba en una única red neuronal de grandes dimensiones, sino en la integración de numerosas tecnologías especializadas que trabajaban de forma coordinada(Ferrucci et al. 2010). El sistema combinaba procesamiento del lenguaje natural, búsqueda de información, aprendizaje automático, análisis estadístico y mecanismos de razonamiento para generar varias respuestas posibles y seleccionar aquella que ofrecía un mayor grado de confianza.\nWatson representó un extraordinario logro de la Ingeniería del Software y de la Inteligencia Artificial de su tiempo. Demostró que era posible construir sistemas capaces de interpretar preguntas expresadas en lenguaje natural y ofrecer respuestas útiles, pero también puso de manifiesto la enorme complejidad que suponía integrar y mantener un gran número de componentes especializados.\nLa siguiente gran evolución no consistió únicamente en mejorar cada uno de esos componentes, sino en cambiar el enfoque. En lugar de construir un sistema formado por numerosos módulos independientes, la investigación comenzó a explorar la posibilidad de que una única red neuronal aprendiera por sí misma muchas de esas capacidades durante su entrenamiento.\nEse cambio de paradigma dio origen a una nueva generación de sistemas: los Large Language Models, o LLM.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "Antes de los LLM"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html",
+    "href": "docs/chapters/01-intro/03-declarativa.html",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "La programación declarativa representa un nuevo paso en la evolución de los niveles de abstracción del software, mientras que la programación imperativa obliga al desarrollador a describir paso a paso el algoritmo que debe ejecutar el ordenador, y la programación funcional centra la atención en las transformaciones aplicadas sobre los datos, la programación declarativa propone un enfoque completamente diferente: El desarrollador deja de indicar cómo resolver un problema y comienza a describir qué resultado desea obtener.\nLa responsabilidad de encontrar el procedimiento adecuado pasa a formar parte del propio sistema.\n\n\nEn un lenguaje imperativo, obtener una lista de clientes con saldo pendiente implica diseñar un algoritmo completo, será necesario recorrer estructuras de datos, evaluar condiciones, almacenar resultados y decidir el orden de ejecución de cada operación, en un lenguaje declarativo como SQL, el mismo problema puede expresarse de forma mucho más sencilla.\nSELECT *\nFROM clientes\nWHERE saldo &gt; 0;\nLa consulta no indica cómo recorrer la tabla, qué algoritmo utilizar ni qué índices emplear, simplemente especifica el resultado esperado. El sistema gestor de bases de datos (SGDB) analiza la consulta, estudia las estadísticas disponibles y selecciona automáticamente el plan de ejecución que considera más eficiente, por primera vez, el desarrollador comienza a delegar decisiones importantes en la propia plataforma.\n\n\n\nEste mismo principio aparece hoy en numerosas tecnologías modernas, cuando utilizamos Terraform, Kubernetes o Docker Compose no describimos una secuencia de operaciones, describimos el estado final que deseamos alcanzar, no indicamos cómo crear una máquina virtual, desplegar un contenedor o configurar una red, simplemente declaramos cuál debe ser el resultado final y dejamos que la plataforma determine el procedimiento necesario para conseguirlo.\nLa programación deja de ser una descripción detallada de acciones y se convierte en una especificación de objetivos.\n\n\n\nLa programación declarativa introduce un cambio conceptual muy importante: El desarrollador ya no controla todas las decisiones del proceso de ejecución, parte de esas decisiones se delegan en el propio sistema:\n\nUn optimizador SQL decide qué índices utilizar.\nUn planificador de Kubernetes decide en qué nodo ejecutar un contenedor.\nTerraform calcula automáticamente las dependencias entre recursos.\n\nEl ingeniero continúa definiendo el problema, pero deja de ser responsable de todos los detalles de su resolución, esta idea constituye uno de los mayores avances en la historia de la Ingeniería del Software.\n\n\n\nLa programación declarativa también estableció un puente natural hacia los primeros sistemas de Inteligencia Artificial, lenguajes como Prolog permitían describir hechos y reglas lógicas sin implementar explícitamente el algoritmo de razonamiento, El programador escribía afirmaciones como:\n\nJuan es padre de Pedro.\nPedro es padre de Luis.\n\nY definía reglas del tipo:\n\nSi X es padre de Y e Y es padre de Z, entonces X es abuelo de Z.\n\nEl motor de inferencia era el encargado de encontrar automáticamente las respuestas, por primera vez, el conocimiento comenzaba a representarse de forma explícita y el sistema asumía parte del proceso de razonamiento. Esta idea inspiró el desarrollo de la Inteligencia Artificial simbólica y de los sistemas expertos durante las décadas siguientes.\nAunque aquellos sistemas demostraron importantes limitaciones, introdujeron un concepto que sigue siendo fundamental en la actualidad: el ingeniero no siempre necesita describir el procedimiento completo; en muchas ocasiones basta con representar correctamente el conocimiento y dejar que el sistema realice el resto del trabajo.\n\n\n\nLa programación declarativa no constituye el final de esta evolución, representa un nuevo escalón en un proceso de abstracción creciente, cada nuevo paradigma ha desplazado una parte mayor de la complejidad desde el desarrollador hacia las herramientas.\n\nLa programación imperativa delegó el código máquina en el compilador.\nLa programación funcional delegó numerosos detalles de implementación en el lenguaje.\nLa programación declarativa delegó la estrategia de resolución en motores especializados.\n\nEl siguiente paso consistirá en delegar no solo la estrategia de ejecución, sino también parte del conocimiento necesario para resolver el problema, este cambio marcará el comienzo de una nueva etapa en la evolución de la Ingeniería del Software."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html#del-algoritmo-a-la-especificación",
+    "href": "docs/chapters/01-intro/03-declarativa.html#del-algoritmo-a-la-especificación",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "En un lenguaje imperativo, obtener una lista de clientes con saldo pendiente implica diseñar un algoritmo completo, será necesario recorrer estructuras de datos, evaluar condiciones, almacenar resultados y decidir el orden de ejecución de cada operación, en un lenguaje declarativo como SQL, el mismo problema puede expresarse de forma mucho más sencilla.\nSELECT *\nFROM clientes\nWHERE saldo &gt; 0;\nLa consulta no indica cómo recorrer la tabla, qué algoritmo utilizar ni qué índices emplear, simplemente especifica el resultado esperado. El sistema gestor de bases de datos (SGDB) analiza la consulta, estudia las estadísticas disponibles y selecciona automáticamente el plan de ejecución que considera más eficiente, por primera vez, el desarrollador comienza a delegar decisiones importantes en la propia plataforma."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html#el-estado-deseado",
+    "href": "docs/chapters/01-intro/03-declarativa.html#el-estado-deseado",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "Este mismo principio aparece hoy en numerosas tecnologías modernas, cuando utilizamos Terraform, Kubernetes o Docker Compose no describimos una secuencia de operaciones, describimos el estado final que deseamos alcanzar, no indicamos cómo crear una máquina virtual, desplegar un contenedor o configurar una red, simplemente declaramos cuál debe ser el resultado final y dejamos que la plataforma determine el procedimiento necesario para conseguirlo.\nLa programación deja de ser una descripción detallada de acciones y se convierte en una especificación de objetivos."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html#delegar-decisiones",
+    "href": "docs/chapters/01-intro/03-declarativa.html#delegar-decisiones",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "La programación declarativa introduce un cambio conceptual muy importante: El desarrollador ya no controla todas las decisiones del proceso de ejecución, parte de esas decisiones se delegan en el propio sistema:\n\nUn optimizador SQL decide qué índices utilizar.\nUn planificador de Kubernetes decide en qué nodo ejecutar un contenedor.\nTerraform calcula automáticamente las dependencias entre recursos.\n\nEl ingeniero continúa definiendo el problema, pero deja de ser responsable de todos los detalles de su resolución, esta idea constituye uno de los mayores avances en la historia de la Ingeniería del Software."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html#el-puente-hacia-la-inteligencia-artificial",
+    "href": "docs/chapters/01-intro/03-declarativa.html#el-puente-hacia-la-inteligencia-artificial",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "La programación declarativa también estableció un puente natural hacia los primeros sistemas de Inteligencia Artificial, lenguajes como Prolog permitían describir hechos y reglas lógicas sin implementar explícitamente el algoritmo de razonamiento, El programador escribía afirmaciones como:\n\nJuan es padre de Pedro.\nPedro es padre de Luis.\n\nY definía reglas del tipo:\n\nSi X es padre de Y e Y es padre de Z, entonces X es abuelo de Z.\n\nEl motor de inferencia era el encargado de encontrar automáticamente las respuestas, por primera vez, el conocimiento comenzaba a representarse de forma explícita y el sistema asumía parte del proceso de razonamiento. Esta idea inspiró el desarrollo de la Inteligencia Artificial simbólica y de los sistemas expertos durante las décadas siguientes.\nAunque aquellos sistemas demostraron importantes limitaciones, introdujeron un concepto que sigue siendo fundamental en la actualidad: el ingeniero no siempre necesita describir el procedimiento completo; en muchas ocasiones basta con representar correctamente el conocimiento y dejar que el sistema realice el resto del trabajo."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/03-declarativa.html#una-evolución-continua",
+    "href": "docs/chapters/01-intro/03-declarativa.html#una-evolución-continua",
+    "title": "Progrmacion declarativa",
+    "section": "",
+    "text": "La programación declarativa no constituye el final de esta evolución, representa un nuevo escalón en un proceso de abstracción creciente, cada nuevo paradigma ha desplazado una parte mayor de la complejidad desde el desarrollador hacia las herramientas.\n\nLa programación imperativa delegó el código máquina en el compilador.\nLa programación funcional delegó numerosos detalles de implementación en el lenguaje.\nLa programación declarativa delegó la estrategia de resolución en motores especializados.\n\nEl siguiente paso consistirá en delegar no solo la estrategia de ejecución, sino también parte del conocimiento necesario para resolver el problema, este cambio marcará el comienzo de una nueva etapa en la evolución de la Ingeniería del Software."
   },
   {
     "objectID": "docs/chapters/01-intro/revisar_04-ia.html",
@@ -728,5 +601,125 @@
     "title": "Inteligencia Artificial",
     "section": "",
     "text": "Todos estos avances prepararon el terreno para la siguiente revolución.\nLos investigadores dejaron de intentar representar explícitamente el conocimiento humano mediante reglas.\nComenzaron a construir modelos capaces de aprender directamente a partir de cantidades masivas de información.\nEse cambio de filosofía permitió desarrollar una nueva generación de sistemas capaces de trabajar con el lenguaje natural de una forma hasta entonces inimaginable.\nLos Large Language Models representan la culminación, al menos por el momento, de esta evolución.\nNo sustituyen completamente a las técnicas anteriores.\nPero cambian una idea fundamental que había acompañado a la Ingeniería del Software desde sus orígenes.\n\nDurante décadas intentamos construir inteligencia escribiendo conocimiento.\n\n\nHoy construimos sistemas inteligentes permitiendo que el conocimiento sea aprendido por el propio modelo.\n\nEste cambio constituye uno de los mayores puntos de inflexión de la historia de la informática.\nComprender cómo ha sido posible requiere estudiar la arquitectura que hizo realidad esta transformación.\nEse será el objetivo del siguiente apartado."
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Mientras la Ingeniería del Software evolucionaba hacia niveles crecientes de abstracción, otra disciplina comenzaba a plantearse una pregunta completamente diferente:\n¿Es posible representar el conocimiento humano dentro de un ordenador?\nEsta cuestión dio origen a la primera gran corriente de la Inteligencia Artificial, conocida hoy como Inteligencia Artificial simbólica o Good Old-Fashioned Artificial Intelligence (GOFAI), su objetivo no consistía en aprender a partir de datos, sino en construir sistemas capaces de razonar utilizando conocimiento representado explícitamente.\n\n\nLos investigadores de las décadas de 1950 y 1960 partían de una hipótesis aparentemente razonable:\n\nCuando una persona resuelve un problema, utiliza conocimientos, reglas y razonamientos.\n\nSi somos capaces de expresar ese conocimiento de forma estructurada, un ordenador también debería ser capaz de utilizarlo para resolver problemas similares. La inteligencia no debía aprenderse, debía escribirse.\nEl reto consistía en encontrar una forma adecuada de representar ese conocimiento.\n\n\n\nLos ordenadores habían nacido para realizar cálculos numéricos, la Inteligencia Artificial simbólica propuso utilizar los ordenadores para manipular conceptos, en lugar de sumar o multiplicar, los programas trabajarían con conceptos como:\n\nPersonas.\nAnimales.\nEnfermedades.\nSíntomas.\nEmpresas.\nProductos.\nRelaciones lógicas.\n\nEstos elementos se representaban mediante símbolos, de donde procede el nombre de esta disciplina.\nUn sistema podía conocer afirmaciones como:\n\nMadrid es la capital de España.\nTodos los mamíferos son animales.\nUn empleado pertenece a un departamento.\n\nA partir de estas afirmaciones era posible deducir nuevo conocimiento mediante reglas lógicas.\n\n\n\nLa pieza fundamental de la IA simbólica era el motor de inferencia, el conocimiento se almacenaba mediante hechos y reglas.\nPor ejemplo:\n\nTodos los pájaros tienen alas.\nUn gorrión es un pájaro.\n\nEl sistema podía deducir automáticamente:\n\nUn gorrión tiene alas.\n\nNadie había escrito explícitamente esa conclusión, había sido obtenida mediante razonamiento lógico. Por primera vez un ordenador parecía capaz de extraer conclusiones utilizando conocimiento previamente representado.\n\n\n\nLa necesidad de representar conocimiento impulsó el desarrollo de nuevos lenguajes de programación:\n\nLisp permitió manipular símbolos, listas y expresiones de forma extremadamente flexible, su capacidad para tratar programas como datos convirtió a Lisp en el lenguaje predominante de la investigación en Inteligencia Artificial durante varias décadas.\nProlog introdujo la programación declarativa basada en la lógica matemática., permitía describir hechos y reglas sin implementar explícitamente el algoritmo de razonamiento. El desarrollador no escribía algoritmos, describía hechos y reglas y el propio sistema se encargaba de buscar las cadenas de razonamiento necesarias para responder preguntas.\n\nEsta idea representaba una evolución muy interesante respecto a la programación declarativa, ya no solo se declaraba el resultado esperado, si no que también se declaraba el conocimiento sobre el que debía razonar el sistema.\n\n\n\nDurante los años setenta y ochenta esta filosofía alcanzó su máximo desarrollo con los sistemas expertos.\nLa idea era tan sencilla como ambiciosa: Si un especialista podía explicar cómo tomaba decisiones, ese conocimiento podría almacenarse en un ordenador.\n\nUn médico podía describir cómo diagnosticaba una enfermedad.\nUn ingeniero podía explicar cómo configurar una máquina industrial.\nUn geólogo podía indicar cómo localizar determinados minerales.\n\nLos ingenieros del conocimiento entrevistaban a estos expertos y transformaban sus explicaciones en miles de reglas lógicas, el resultado eran sistemas capaces de resolver problemas muy especializados:\n\nMYCIN, por ejemplo, ayudaba al diagnóstico de infecciones bacterianas.\nXCON configuraba automáticamente complejos sistemas informáticos para Digital Equipment Corporation (DEC).\n\nDurante algún tiempo estos sistemas obtuvieron resultados extraordinarios y alimentaron la idea de que la Inteligencia Artificial estaba cerca de resolver el problema del razonamiento humano.\n\n\n\nSin embargo, muy pronto apareció una dificultad que nadie había previsto con suficiente claridad: El conocimiento humano no puede reducirse fácilmente a una colección de reglas. Cada nueva excepción obligaba a escribir nuevas reglas, las reglas comenzaban a entrar en conflicto entre sí y el mantenimiento se volvía cada vez más complejo. La incorporación de nuevos conocimientos exigía revisar miles de decisiones anteriores.\nEste problema llegó a conocerse como el cuello de botella del conocimiento (Knowledge Acquisition Bottleneck).\nNo era difícil construir un sistema experto, lo realmente difícil era mantenerlo actualizado durante años.\n\n\n\nLa IA simbólica demostró que los ordenadores podían razonar, pero también puso de manifiesto una limitación fundamental: El conocimiento debía ser introducido manualmente.\n\nCada regla.\nCada excepción.\nCada relación.\nCada concepto.\n\nLa inteligencia dependía directamente de la cantidad y calidad del conocimiento escrito por los expertos, el sistema nunca podía saber más de lo que alguien había representado previamente, en otras palabras, la inteligencia seguía dependiendo completamente del ser humano.\n\n\n\nAunque muchos sistemas expertos desaparecieron con el tiempo, la IA simbólica dejó un legado extraordinario introduciendo conceptos que siguen siendo fundamentales en la actualidad:\n\nLa representación del conocimiento.\nLa inferencia lógica.\nLas ontologías.\nLos grafos de conocimiento.\nLos motores de reglas.\nLa planificación automática.\n\nMuchos sistemas modernos continúan utilizando estas técnicas allí donde resulta imprescindible trabajar con conocimiento explícito y completamente verificable.\n\n\n\nLa IA simbólica intentó construir inteligencia escribiendo conocimiento, durante décadas fue el enfoque dominante sin embargo, a medida que los problemas crecían en complejidad comenzó a resultar evidente que representar manualmente todo el conocimiento humano era una tarea inabordable. Quizá el problema no consistía en escribir mejores reglas. Quizá el verdadero cambio debía consistir en dejar que las máquinas aprendieran esas reglas por sí mismas.\nEsa idea marcaría el nacimiento de una nueva etapa en la historia de la Inteligencia Artificial: el aprendizaje automático.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#la-inteligencia-como-conocimiento",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#la-inteligencia-como-conocimiento",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Los investigadores de las décadas de 1950 y 1960 partían de una hipótesis aparentemente razonable:\n\nCuando una persona resuelve un problema, utiliza conocimientos, reglas y razonamientos.\n\nSi somos capaces de expresar ese conocimiento de forma estructurada, un ordenador también debería ser capaz de utilizarlo para resolver problemas similares. La inteligencia no debía aprenderse, debía escribirse.\nEl reto consistía en encontrar una forma adecuada de representar ese conocimiento.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#símbolos-en-lugar-de-números",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#símbolos-en-lugar-de-números",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Los ordenadores habían nacido para realizar cálculos numéricos, la Inteligencia Artificial simbólica propuso utilizar los ordenadores para manipular conceptos, en lugar de sumar o multiplicar, los programas trabajarían con conceptos como:\n\nPersonas.\nAnimales.\nEnfermedades.\nSíntomas.\nEmpresas.\nProductos.\nRelaciones lógicas.\n\nEstos elementos se representaban mediante símbolos, de donde procede el nombre de esta disciplina.\nUn sistema podía conocer afirmaciones como:\n\nMadrid es la capital de España.\nTodos los mamíferos son animales.\nUn empleado pertenece a un departamento.\n\nA partir de estas afirmaciones era posible deducir nuevo conocimiento mediante reglas lógicas.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-razonamiento-mediante-reglas",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-razonamiento-mediante-reglas",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "La pieza fundamental de la IA simbólica era el motor de inferencia, el conocimiento se almacenaba mediante hechos y reglas.\nPor ejemplo:\n\nTodos los pájaros tienen alas.\nUn gorrión es un pájaro.\n\nEl sistema podía deducir automáticamente:\n\nUn gorrión tiene alas.\n\nNadie había escrito explícitamente esa conclusión, había sido obtenida mediante razonamiento lógico. Por primera vez un ordenador parecía capaz de extraer conclusiones utilizando conocimiento previamente representado.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#los-lenguajes-de-la-inteligencia-artificial",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#los-lenguajes-de-la-inteligencia-artificial",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "La necesidad de representar conocimiento impulsó el desarrollo de nuevos lenguajes de programación:\n\nLisp permitió manipular símbolos, listas y expresiones de forma extremadamente flexible, su capacidad para tratar programas como datos convirtió a Lisp en el lenguaje predominante de la investigación en Inteligencia Artificial durante varias décadas.\nProlog introdujo la programación declarativa basada en la lógica matemática., permitía describir hechos y reglas sin implementar explícitamente el algoritmo de razonamiento. El desarrollador no escribía algoritmos, describía hechos y reglas y el propio sistema se encargaba de buscar las cadenas de razonamiento necesarias para responder preguntas.\n\nEsta idea representaba una evolución muy interesante respecto a la programación declarativa, ya no solo se declaraba el resultado esperado, si no que también se declaraba el conocimiento sobre el que debía razonar el sistema.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#los-sistemas-expertos",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#los-sistemas-expertos",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Durante los años setenta y ochenta esta filosofía alcanzó su máximo desarrollo con los sistemas expertos.\nLa idea era tan sencilla como ambiciosa: Si un especialista podía explicar cómo tomaba decisiones, ese conocimiento podría almacenarse en un ordenador.\n\nUn médico podía describir cómo diagnosticaba una enfermedad.\nUn ingeniero podía explicar cómo configurar una máquina industrial.\nUn geólogo podía indicar cómo localizar determinados minerales.\n\nLos ingenieros del conocimiento entrevistaban a estos expertos y transformaban sus explicaciones en miles de reglas lógicas, el resultado eran sistemas capaces de resolver problemas muy especializados:\n\nMYCIN, por ejemplo, ayudaba al diagnóstico de infecciones bacterianas.\nXCON configuraba automáticamente complejos sistemas informáticos para Digital Equipment Corporation (DEC).\n\nDurante algún tiempo estos sistemas obtuvieron resultados extraordinarios y alimentaron la idea de que la Inteligencia Artificial estaba cerca de resolver el problema del razonamiento humano.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-cuello-de-botella-del-conocimiento",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-cuello-de-botella-del-conocimiento",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Sin embargo, muy pronto apareció una dificultad que nadie había previsto con suficiente claridad: El conocimiento humano no puede reducirse fácilmente a una colección de reglas. Cada nueva excepción obligaba a escribir nuevas reglas, las reglas comenzaban a entrar en conflicto entre sí y el mantenimiento se volvía cada vez más complejo. La incorporación de nuevos conocimientos exigía revisar miles de decisiones anteriores.\nEste problema llegó a conocerse como el cuello de botella del conocimiento (Knowledge Acquisition Bottleneck).\nNo era difícil construir un sistema experto, lo realmente difícil era mantenerlo actualizado durante años.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-límite-de-la-inteligencia-artificial-simbólica",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-límite-de-la-inteligencia-artificial-simbólica",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "La IA simbólica demostró que los ordenadores podían razonar, pero también puso de manifiesto una limitación fundamental: El conocimiento debía ser introducido manualmente.\n\nCada regla.\nCada excepción.\nCada relación.\nCada concepto.\n\nLa inteligencia dependía directamente de la cantidad y calidad del conocimiento escrito por los expertos, el sistema nunca podía saber más de lo que alguien había representado previamente, en otras palabras, la inteligencia seguía dependiendo completamente del ser humano.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#una-lección-que-sigue-vigente",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#una-lección-que-sigue-vigente",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "Aunque muchos sistemas expertos desaparecieron con el tiempo, la IA simbólica dejó un legado extraordinario introduciendo conceptos que siguen siendo fundamentales en la actualidad:\n\nLa representación del conocimiento.\nLa inferencia lógica.\nLas ontologías.\nLos grafos de conocimiento.\nLos motores de reglas.\nLa planificación automática.\n\nMuchos sistemas modernos continúan utilizando estas técnicas allí donde resulta imprescindible trabajar con conocimiento explícito y completamente verificable.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
+  },
+  {
+    "objectID": "docs/chapters/01-intro/04-ia_simbolica.html#el-siguiente-paso",
+    "href": "docs/chapters/01-intro/04-ia_simbolica.html#el-siguiente-paso",
+    "title": "IA Simbolica",
+    "section": "",
+    "text": "La IA simbólica intentó construir inteligencia escribiendo conocimiento, durante décadas fue el enfoque dominante sin embargo, a medida que los problemas crecían en complejidad comenzó a resultar evidente que representar manualmente todo el conocimiento humano era una tarea inabordable. Quizá el problema no consistía en escribir mejores reglas. Quizá el verdadero cambio debía consistir en dejar que las máquinas aprendieran esas reglas por sí mismas.\nEsa idea marcaría el nacimiento de una nueva etapa en la historia de la Inteligencia Artificial: el aprendizaje automático.",
+    "crumbs": [
+      "Inicio",
+      "Introducción",
+      "IA Simbolica"
+    ]
   }
 ]
