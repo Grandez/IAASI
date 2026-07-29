@@ -52,6 +52,7 @@ rsconnect/
 /.quarto/
 
 # Output
+.quarto/
 _site/
 _freeze/
 
