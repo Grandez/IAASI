@@ -1,5 +1,6 @@
 ---
-title: "Foundations
+title: "Foundations"
+order: 3
 ---
 
 ## Introducción

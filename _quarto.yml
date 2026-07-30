@@ -12,6 +12,8 @@ website:
         text: Introducción
       - href: chapters/02-conceptos/index.qmd
         text: Conceptos
+      - href: chapters/03-foundations/index.qmd
+        text: Foundations
 
   sidebar:
     style: "docked"
