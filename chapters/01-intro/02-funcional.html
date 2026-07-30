@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Large Language Models – Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</title>
+<title>Programacion funcional – Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-6493d055a62f6a5fae3ea0397f3ce425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6493d055a62f6a5fae3ea0397f3ce425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</span>
     </a>
   </div>
@@ -95,12 +130,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../docs/chapters/01-intro/index.html" aria-current="page"> 
+    <a class="nav-link active" href="../../chapters/01-intro/index.html" aria-current="page"> 
 <span class="menu-text">Introducción</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../chapters/02-conceptos/index.html"> 
+<span class="menu-text">Conceptos</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -113,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../../docs/chapters/01-intro/08-llm.html">Large Language Models</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/02-conceptos/index.html">Chapters</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/02-funcional.html">Programacion funcional</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -135,8 +174,8 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introducción</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -144,58 +183,69 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Large Language Models</span></a>
+  <a href="../../chapters/02-conceptos/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conceptos de Sistemas Inteligentes y LLM</span></a>
   </div>
 </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/01-imperativa.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/01-imperativa.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programación imperativa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/02-funcional.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/02-funcional.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Programacion funcional</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/03-natural.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Programación en lenguaje natural</span></a>
+  <a href="../../chapters/01-intro/03-declarativa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Progrmacion declarativa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/04-ia_simbolica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/04-ia_simbolica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">IA Simbolica</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/05-ml.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/05-ml.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/06-dl.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/06-dl.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deep Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/07-watson.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/07-watson.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Antes de los LLM</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/08-llm.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../chapters/01-intro/08-llm.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Large Language Models</span></a>
   </div>
 </li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -208,16 +258,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#cuando-el-lenguaje-se-convirtió-en-conocimiento" id="toc-cuando-el-lenguaje-se-convirtió-en-conocimiento" class="nav-link active" data-scroll-target="#cuando-el-lenguaje-se-convirtió-en-conocimiento"><span class="header-section-number">1</span> Cuando el lenguaje se convirtió en conocimiento</a></li>
+  <li><a href="#describiendo-el-problema-no-el-procedimiento" id="toc-describiendo-el-problema-no-el-procedimiento" class="nav-link active" data-scroll-target="#describiendo-el-problema-no-el-procedimiento"><span class="header-section-number">1</span> Describiendo el problema, no el procedimiento</a>
+  <ul class="collapse">
+  <li><a href="#del-estado-a-la-transformación" id="toc-del-estado-a-la-transformación" class="nav-link" data-scroll-target="#del-estado-a-la-transformación"><span class="header-section-number">1.1</span> Del estado a la transformación</a></li>
+  <li><a href="#composición-de-funciones" id="toc-composición-de-funciones" class="nav-link" data-scroll-target="#composición-de-funciones"><span class="header-section-number">1.2</span> Composición de funciones</a></li>
+  <li><a href="#funciones-puras" id="toc-funciones-puras" class="nav-link" data-scroll-target="#funciones-puras"><span class="header-section-number">1.3</span> Funciones puras</a></li>
+  <li><a href="#inmutabilidad" id="toc-inmutabilidad" class="nav-link" data-scroll-target="#inmutabilidad"><span class="header-section-number">1.4</span> Inmutabilidad</a></li>
+  <li><a href="#qué-aporta-realmente-la-programación-funcional" id="toc-qué-aporta-realmente-la-programación-funcional" class="nav-link" data-scroll-target="#qué-aporta-realmente-la-programación-funcional"><span class="header-section-number">1.5</span> ¿Qué aporta realmente la programación funcional?</a></li>
+  <li><a href="#un-nuevo-nivel-de-abstracción" id="toc-un-nuevo-nivel-de-abstracción" class="nav-link" data-scroll-target="#un-nuevo-nivel-de-abstracción"><span class="header-section-number">1.6</span> Un nuevo nivel de abstracción</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../docs/chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../../docs/chapters/01-intro/08-llm.html">Large Language Models</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/02-conceptos/index.html">Chapters</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/02-funcional.html">Programacion funcional</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Large Language Models</h1>
+<h1 class="title">Programacion funcional</h1>
 </div>
 
 
@@ -234,15 +292,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="cuando-el-lenguaje-se-convirtió-en-conocimiento" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Cuando el lenguaje se convirtió en conocimiento</h1>
-<p>A lo largo de los capítulos anteriores hemos recorrido la evolución de la Inteligencia Artificial desde los primeros sistemas basados en reglas hasta las redes neuronales profundas. Cada etapa respondió a las limitaciones de la anterior y aportó nuevas capacidades, acercándonos progresivamente a sistemas cada vez más flexibles y capaces de aprender a partir de los datos.</p>
-<p>Ese recorrido nos conduce finalmente a los <strong>Large Language Models (LLM)</strong>, la tecnología que ha hecho posible una nueva generación de sistemas inteligentes y que constituye el punto de partida del resto de este trabajo.</p>
-<p>El objetivo de este libro no es estudiar los LLM como un fin en sí mismos, sino comprender cómo pueden utilizarse como elemento fundamental en la construcción de sistemas de Ingeniería y Arquitectura del Software asistidos por Inteligencia Artificial. Los modelos de lenguaje han dejado de ser simples generadores de texto para convertirse en el núcleo sobre el que se integran herramientas, conocimiento, procesos, agentes y servicios capaces de colaborar con las personas durante todo el ciclo de vida del software.</p>
-<p>Un <strong>Large Language Model</strong> es una red neuronal entrenada con cantidades masivas de texto para aprender las regularidades, estructuras y relaciones presentes en el lenguaje. Gracias a ese aprendizaje, el modelo puede adaptarse a una enorme variedad de tareas sin haber sido programado específicamente para cada una de ellas. Esta capacidad de generalización es la que ha permitido que los LLM trasciendan el ámbito del procesamiento del lenguaje natural y se conviertan en componentes fundamentales de sistemas inteligentes cada vez más complejos.</p>
-<p>Comprender qué es un LLM y cuáles son sus capacidades resulta imprescindible para entender el resto de la obra. En los capítulos siguientes se analizarán los conceptos fundamentales que sustentan estos modelos y, posteriormente, cómo se integran dentro de arquitecturas modernas para diseñar, desarrollar y operar soluciones de Ingeniería del Software asistidas por sistemas inteligentes.</p>
+<section id="describiendo-el-problema-no-el-procedimiento" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Describiendo el problema, no el procedimiento</h1>
+<p>Los lenguajes de tercera generación (3GL) supusieron un enorme avance en la construcción de software. El ingeniero describía, paso a paso, el algoritmo que debía ejecutar el ordenador, sin embargo, conforme los sistemas crecían en tamaño y complejidad, comenzó a surgir una pregunta cada vez más importante.</p>
+<p><strong>¿Es realmente necesario describir todos los detalles del procedimiento?</strong></p>
+<p>En muchos programas, una parte significativa del código no representa el problema que se desea resolver, sino la forma en que el ordenador debe recorrer estructuras de datos, mantener estados temporales o controlar el flujo de ejecución, estas tareas son necesarias para la máquina, pero rara vez forman parte del conocimiento del dominio del problema.</p>
+<p>La programación funcional propone un cambio de perspectiva: En lugar de describir detalladamente cómo realizar cada paso del algoritmo, el desarrollador expresa qué transformación desea aplicar sobre los datos, el interés deja de centrarse en el procedimiento y pasa a centrarse en el resultado de cada transformación.</p>
+<section id="del-estado-a-la-transformación" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="del-estado-a-la-transformación"><span class="header-section-number">1.1</span> Del estado a la transformación</h2>
+<p>En la programación imperativa el estado del programa cambia continuamente.</p>
+<p>Por ejemplo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>i in ventas<span class="op">)</span> total <span class="op">+=</span> i<span class="op">;</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>El algoritmo mantiene una variable cuyo valor cambia en cada iteración, desde el punto de vista del procesador resulta perfectamente válido sin embargo, desde el punto de vista del dominio del problema, esa variable intermedia apenas aporta información. En programación funcional el mismo problema puede expresarse de una forma mucho más cercana a la intención del desarrollador.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>total <span class="ot">&lt;-</span> <span class="fu">sum</span>(ventas)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>El desarrollador ya no explica cómo recorrer la colección si no que simplemente indica cuál es el resultado que desea obtener, es el propio lenguaje quien decide cómo ejecutar esa operación.</p>
+</section>
+<section id="composición-de-funciones" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="composición-de-funciones"><span class="header-section-number">1.2</span> Composición de funciones</h2>
+<p>Una de las características más importantes de la programación funcional consiste en considerar las funciones como elementos que pueden componerse entre sí:</p>
+<ol type="1">
+<li>Cada función recibe unos datos.</li>
+<li>Produce una transformación.</li>
+<li>Entrega un resultado que puede inyectarse a la siguiente función.</li>
+</ol>
+<p>Por ejemplo, utilizando el ecosistema <strong>tidyverse</strong> de R:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ventas_validas <span class="ot">&lt;-</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    ventas <span class="sc">|&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(importe <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">iva =</span> importe <span class="sc">*</span> <span class="fl">0.21</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(importe))</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Cada línea representa una transformación independiente, no aparecen índices, no existen bucles explícitos, las variables temporales prácticamente desaparecen. El código deja de describir el recorrido y comienza a describir una secuencia lógica de transformaciones, esta forma de trabajar facilita enormemente la lectura del programa por que cada operación expresa claramente su intención.</p>
+</section>
+<section id="funciones-puras" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="funciones-puras"><span class="header-section-number">1.3</span> Funciones puras</h2>
+<p>Otro de los pilares fundamentales de la programación funcional son las funciones puras: Una función pura siempre produce el mismo resultado cuando recibe los mismos parámetros.</p>
+<ul>
+<li>No modifica variables globales.</li>
+<li>No altera el estado del sistema.</li>
+<li>No produce efectos secundarios.</li>
+</ul>
+<p>Por ejemplo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>precio_con_iva <span class="ot">&lt;-</span> <span class="cf">function</span>(precio) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    precio <span class="sc">*</span> <span class="fl">1.21</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Su comportamiento es completamente predecible. Esta propiedad simplifica las pruebas, facilita la depuración y permite razonar sobre el software con mucha mayor facilidad.</p>
+</section>
+<section id="inmutabilidad" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="inmutabilidad"><span class="header-section-number">1.4</span> Inmutabilidad</h2>
+<p>En programación funcional los datos tienden a considerarse inmutables, en lugar de modificar un objeto existente, se genera uno nuevo que representa el resultado de la transformación. Aunque internamente el lenguaje pueda optimizar este proceso, conceptualmente el programa deja de construirse mediante cambios continuos de estado y pasa a entenderse como una cadena de transformaciones sucesivas. Esta filosofía reduce numerosos errores relacionados con estados compartidos, concurrencia y efectos inesperados.</p>
+</section>
+<section id="qué-aporta-realmente-la-programación-funcional" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="qué-aporta-realmente-la-programación-funcional"><span class="header-section-number">1.5</span> ¿Qué aporta realmente la programación funcional?</h2>
+<p>La programación funcional no elimina la necesidad de diseñar algoritmos, el ingeniero continúa siendo responsable de definir la lógica que resuelve el problema sin embargo, desplaza parte de la responsabilidad desde el desarrollador hacia el propio lenguaje.</p>
+<p>El programador deja de describir numerosos mecanismos de bajo nivel y comienza a expresar transformaciones de un nivel mucho más cercano al problema que desea resolver, el resultado son programas más compactos, más expresivos y, en muchos casos, más fáciles de mantener.</p>
+</section>
+<section id="un-nuevo-nivel-de-abstracción" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="un-nuevo-nivel-de-abstracción"><span class="header-section-number">1.6</span> Un nuevo nivel de abstracción</h2>
+<p>La evolución de los lenguajes de programación puede interpretarse como una búsqueda constante de niveles superiores de abstracción, en los lenguajes imperativos, el desarrollador describe cada paso del algoritmo, en la programación funcional, describe transformaciones sobre los datos y delega en el lenguaje muchos de los detalles de ejecución aunque el ordenador continúa ejecutando instrucciones.</p>
+<p>Pero el ingeniero comienza a expresarse utilizando conceptos cada vez más próximos al problema que desea resolver y cada vez más alejados del funcionamiento interno de la máquina, Este cambio representa un paso más en la evolución de la Ingeniería del Software y, aunque todavía seguimos escribiendo algoritmos, comienza a apreciarse una tendencia que reaparecerá con mucha más fuerza décadas después.</p>
+<p>Cada nueva generación de herramientas permite al ingeniero describir <strong>qué desea conseguir</strong>, mientras delega progresivamente <strong>cómo conseguirlo</strong>. La programación funcional constituye uno de los primeros pasos importantes en esa dirección.</p>
+<p>En los capítulos siguientes veremos cómo esa tendencia continúa con los lenguajes declarativos y culmina, al menos por el momento, con los Large Language Models, donde el desarrollador comienza a expresar objetivos e intenciones más que algoritmos detallados.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Large Language Models – Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</title>
+<title>Deep Learning – Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-6493d055a62f6a5fae3ea0397f3ce425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6493d055a62f6a5fae3ea0397f3ce425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ingenieria y Arquitectura Asistidas por Sistemas Inteligentes (IAASI)</span>
     </a>
   </div>
@@ -95,12 +114,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../../docs/chapters/01-intro/index.html" aria-current="page"> 
+    <a class="nav-link active" href="../../chapters/01-intro/index.html" aria-current="page"> 
 <span class="menu-text">Introducción</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../chapters/02-conceptos/index.html"> 
+<span class="menu-text">Conceptos</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -113,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Large Language Models</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/02-conceptos/index.html">Chapters</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/06-dl.html">Deep Learning</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -135,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../docs/chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introducción</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -144,58 +167,69 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Large Language Models</span></a>
+  <a href="../../chapters/02-conceptos/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conceptos de Sistemas Inteligentes y LLM</span></a>
   </div>
 </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../chapters/01-intro/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/01-imperativa.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/01-imperativa.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programación imperativa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/02-funcional.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/02-funcional.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programacion funcional</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/03-natural.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Programación en lenguaje natural</span></a>
+  <a href="../../chapters/01-intro/03-declarativa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Progrmacion declarativa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/04-ia_simbolica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/04-ia_simbolica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">IA Simbolica</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/05-ml.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/05-ml.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/06-dl.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/06-dl.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Deep Learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/07-watson.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/07-watson.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Antes de los LLM</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../docs/chapters/01-intro/08-llm.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/01-intro/08-llm.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Large Language Models</span></a>
   </div>
 </li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -208,14 +242,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#large-language-models-cuando-el-conocimiento-deja-de-residir-en-el-programa" id="toc-large-language-models-cuando-el-conocimiento-deja-de-residir-en-el-programa" class="nav-link active" data-scroll-target="#large-language-models-cuando-el-conocimiento-deja-de-residir-en-el-programa"><span class="header-section-number">1</span> Large Language Models: cuando el conocimiento deja de residir en el programa</a>
+  <li><a href="#mas-allá-de-los-algoritmos" id="toc-mas-allá-de-los-algoritmos" class="nav-link active" data-scroll-target="#mas-allá-de-los-algoritmos"><span class="header-section-number">1</span> Mas allá de los algoritmos</a>
   <ul class="collapse">
-  <li><a href="#un-modelo-entrenado-no-programado" id="toc-un-modelo-entrenado-no-programado" class="nav-link" data-scroll-target="#un-modelo-entrenado-no-programado"><span class="header-section-number">1.1</span> Un modelo entrenado, no programado</a></li>
-  <li><a href="#mucho-más-que-predecir-palabras" id="toc-mucho-más-que-predecir-palabras" class="nav-link" data-scroll-target="#mucho-más-que-predecir-palabras"><span class="header-section-number">1.2</span> Mucho más que predecir palabras</a></li>
-  <li><a href="#el-gran-cambio-de-paradigma" id="toc-el-gran-cambio-de-paradigma" class="nav-link" data-scroll-target="#el-gran-cambio-de-paradigma"><span class="header-section-number">1.3</span> El gran cambio de paradigma</a></li>
-  <li><a href="#del-desarrollo-al-aprovechamiento-del-conocimiento" id="toc-del-desarrollo-al-aprovechamiento-del-conocimiento" class="nav-link" data-scroll-target="#del-desarrollo-al-aprovechamiento-del-conocimiento"><span class="header-section-number">1.4</span> Del desarrollo al aprovechamiento del conocimiento</a></li>
-  <li><a href="#un-nuevo-papel-para-el-ingeniero" id="toc-un-nuevo-papel-para-el-ingeniero" class="nav-link" data-scroll-target="#un-nuevo-papel-para-el-ingeniero"><span class="header-section-number">1.5</span> Un nuevo papel para el ingeniero</a></li>
-  <li><a href="#el-siguiente-paso" id="toc-el-siguiente-paso" class="nav-link" data-scroll-target="#el-siguiente-paso"><span class="header-section-number">1.6</span> El siguiente paso</a></li>
+  <li><a href="#qué-es-una-red-neuronal" id="toc-qué-es-una-red-neuronal" class="nav-link" data-scroll-target="#qué-es-una-red-neuronal"><span class="header-section-number">1.1</span> ¿Qué es una red neuronal?</a></li>
+  <li><a href="#cómo-aprende-una-red-neuronal" id="toc-cómo-aprende-una-red-neuronal" class="nav-link" data-scroll-target="#cómo-aprende-una-red-neuronal"><span class="header-section-number">1.2</span> ¿Cómo aprende una red neuronal?</a></li>
+  <li><a href="#siguiente-paso" id="toc-siguiente-paso" class="nav-link" data-scroll-target="#siguiente-paso"><span class="header-section-number">1.3</span> Siguiente paso</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -223,9 +254,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/02-conceptos/index.html">Chapters</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/index.html">Introducción</a></li><li class="breadcrumb-item"><a href="../../chapters/01-intro/06-dl.html">Deep Learning</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Large Language Models</h1>
+<h1 class="title">Deep Learning</h1>
 </div>
 
 
@@ -242,91 +273,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="large-language-models-cuando-el-conocimiento-deja-de-residir-en-el-programa" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Large Language Models: cuando el conocimiento deja de residir en el programa</h1>
-<p>En los apartados anteriores hemos recorrido la evolución de los principales paradigmas de programación.</p>
-<p>La programación imperativa obligaba al desarrollador a describir de forma precisa el algoritmo que debía ejecutar el ordenador.</p>
-<p>La programación funcional elevó el nivel de abstracción, permitiendo expresar transformaciones sobre los datos en lugar de describir todos los detalles del procedimiento.</p>
-<p>Finalmente, la programación en lenguaje natural introdujo una idea completamente diferente: expresar el objetivo, el contexto y las restricciones del problema utilizando el propio lenguaje humano.</p>
-<p>Sin embargo, esta evolución plantea una pregunta inevitable.</p>
-<p><strong>¿Cómo puede un ordenador comprender un lenguaje tan ambiguo, flexible y lleno de matices como el lenguaje natural?</strong></p>
-<p>La respuesta se encuentra en una nueva generación de sistemas conocidos como <strong>Large Language Models (LLM)</strong>.</p>
-<section id="un-modelo-entrenado-no-programado" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="un-modelo-entrenado-no-programado"><span class="header-section-number">1.1</span> Un modelo entrenado, no programado</h2>
-<p>Un Large Language Model no es un programa tradicional.</p>
-<p>No está formado por miles de reglas escritas manualmente.</p>
-<p>No contiene una enorme colección de árboles de decisión.</p>
-<p>No implementa un gigantesco conjunto de reglas gramaticales capaces de analizar todos los idiomas.</p>
-<p>Su funcionamiento es completamente diferente.</p>
-<p>Durante un proceso denominado <strong>entrenamiento</strong>, el modelo procesa cantidades masivas de texto procedentes de libros, artículos científicos, documentación técnica, código fuente, páginas web y muchas otras fuentes de información.</p>
-<p>A partir de esa experiencia aprende relaciones estadísticas extremadamente complejas entre palabras, frases, conceptos e ideas.</p>
-<p>El resultado de ese proceso no es un programa lleno de reglas.</p>
-<p>Es un modelo matemático capaz de estimar qué respuesta resulta más adecuada para un determinado contexto.</p>
+<section id="mas-allá-de-los-algoritmos" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Mas allá de los algoritmos</h1>
+<p>Si cada algoritmo está diseñado para resolver una determinada familia de problemas y el número de problemas del mundo real es prácticamente ilimitado, parecería lógico pensar que también sería necesario desarrollar un número ilimitado de algoritmos, aquí aparecen las Redes Neuronales.</p>
+<p>Las redes neuronales artificiales no eran una idea nueva. Sus primeros modelos se remontan a la década de 1940 con los trabajos de McCulloch y Pitts <span class="citation" data-cites="mcculloch1943">(<a href="#ref-mcculloch1943" role="doc-biblioref">McCulloch y Pitts 1943</a>)</span>, y pocos años después Frank Rosenblatt presentó el perceptrón, considerado la primera red neuronal capaz de aprender a partir de ejemplos <span class="citation" data-cites="rosenblatt1958">(<a href="#ref-rosenblatt1958" role="doc-biblioref">Rosenblatt 1958</a>)</span>. Durante las décadas siguientes la investigación continuó avanzando, alternando periodos de entusiasmo con otros de profundo escepticismo, especialmente tras la publicación de <em>Perceptrons</em> de Marvin Minsky y Seymour Papert, que puso de manifiesto importantes limitaciones de los modelos existentes <span class="citation" data-cites="minsky1969">(<a href="#ref-minsky1969" role="doc-biblioref">Minsky y Papert 1969</a>)</span>.</p>
+<p>Lejos de desaparecer, las redes neuronales continuaron evolucionando, la aparición del algoritmo de retropropagación permitió entrenar redes de mayor complejidad <span class="citation" data-cites="rumelhart1986">(<a href="#ref-rumelhart1986" role="doc-biblioref">Rumelhart et&nbsp;al. 1986</a>)</span>, y poco después comenzaron a demostrar su utilidad en aplicaciones reales como el reconocimiento automático de caracteres manuscritos <span class="citation" data-cites="lecun1989">(<a href="#ref-lecun1989" role="doc-biblioref">LeCun et&nbsp;al. 1989</a>)</span>; sin embargo, durante muchos años siguieron siendo una técnica más dentro del amplio conjunto de algoritmos de <em>Machine Learning</em>, en numerosos problemas, otros métodos ofrecían mejores resultados con un menor coste computacional.</p>
+<p>El cambio comenzó a producirse cuando coincidieron varios factores. La capacidad de cálculo de los ordenadores aumentó de forma extraordinaria, aparecieron procesadores especialmente adecuados para realizar millones de operaciones en paralelo y la cantidad de datos disponibles creció a una escala nunca antes vista. En ese nuevo contexto, las redes neuronales empezaron a mostrar un comportamiento muy diferente al observado durante las décadas anteriores.</p>
+<p>En 2006 Geoffrey Hinton y Ruslan Salakhutdinov demostraron que era posible entrenar redes neuronales mucho más profundas que las utilizadas hasta entonces <span class="citation" data-cites="hinton2006">(<a href="#ref-hinton2006" role="doc-biblioref">Hinton y Salakhutdinov 2006</a>)</span>. Aquella línea de investigación culminó pocos años después con AlexNet, una red neuronal que obtuvo unos resultados espectaculares en el concurso internacional <em>ImageNet</em> y marcó un punto de inflexión para la comunidad científica <span class="citation" data-cites="krizhevsky2012">(<a href="#ref-krizhevsky2012" role="doc-biblioref">Krizhevsky et&nbsp;al. 2012</a>)</span>.</p>
+<p>Fue entonces cuando comenzó a popularizarse el término <strong>Deep Learning</strong>. Más que una nueva disciplina, describía una nueva generación de redes neuronales caracterizadas por un mayor número de capas y una capacidad muy superior para aprender representaciones complejas de los datos. La idea fundamental seguía siendo la misma que décadas atrás, pero la tecnología había alcanzado por fin el nivel necesario para explotar todo su potencial.</p>
+<p>El <em>Deep Learning</em> no eliminó los algoritmos clásicos de <em>Machine Learning</em>, que continúan siendo la mejor elección en numerosos problemas. Su verdadera aportación fue demostrar que una misma familia de modelos podía abordar tareas extraordinariamente diversas, desde el reconocimiento de imágenes hasta la traducción automática, el reconocimiento del habla o la generación de texto, aquella aparente necesidad de crear un algoritmo diferente para cada problema comenzó a diluirse, no porque existiera un algoritmo universal, sino porque las redes neuronales demostraron una capacidad de adaptación muy superior a la imaginada durante sus primeras décadas de existencia.</p>
+<p>Para comprender por qué esto fue posible es necesario conocer cómo está construida una red neuronal y cuál es el mecanismo que le permite aprender a partir de los datos.</p>
+<section id="qué-es-una-red-neuronal" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="qué-es-una-red-neuronal"><span class="header-section-number">1.1</span> ¿Qué es una red neuronal?</h2>
+<p>A pesar de su nombre, una red neuronal artificial está muy lejos de reproducir el funcionamiento del cerebro humano. El término <em>neuronal</em> responde más a una inspiración biológica que a una copia de la realidad. Sus primeros investigadores observaron que el cerebro era capaz de aprender a partir de la experiencia y se preguntaron si sería posible construir modelos matemáticos que, de forma muy simplificada, presentaran un comportamiento similar.</p>
+<p>La idea era sorprendentemente sencilla. En lugar de diseñar un algoritmo específico para cada problema, se construía una estructura formada por un gran número de unidades muy simples, denominadas <strong>neuronas artificiales</strong>, conectadas entre sí. Cada una de ellas recibía información procedente de otras neuronas, realizaba un pequeño cálculo matemático y transmitía el resultado a las siguientes.</p>
+<p>De forma aislada, una neurona artificial apenas tiene capacidad para resolver ningún problema interesante. Su funcionamiento consiste únicamente en combinar una serie de valores numéricos, aplicar una función matemática y producir un nuevo valor como resultado. Sin embargo, cuando miles o incluso millones de estas neuronas trabajan conjuntamente, comienzan a emerger comportamientos mucho más complejos.</p>
+<p>Las conexiones entre las neuronas no tienen todas la misma importancia. Cada una posee un valor numérico asociado, denominado <strong>peso</strong>, que determina cuánto influye una señal sobre la siguiente neurona. Durante el entrenamiento estos pesos se modifican continuamente, reforzando aquellas conexiones que ayudan a obtener respuestas correctas y debilitando las que producen errores. En realidad, aprender no significa otra cosa que encontrar la combinación de millones de pesos que mejor representa las relaciones existentes en los datos.</p>
+<p>Las neuronas suelen organizarse en capas. Una primera capa recibe la información de entrada, varias capas intermedias transforman progresivamente esa información y una última capa genera el resultado final. Cuantas más capas intervienen en ese proceso, mayor es la capacidad del modelo para descubrir relaciones complejas. Precisamente de esa mayor profundidad procede el término <strong>Deep Learning</strong>.</p>
+<p>La enorme ventaja de este enfoque es que la estructura general de la red apenas cambia de un problema a otro. Lo que realmente varía son los valores de sus millones de pesos, que se ajustan automáticamente durante el entrenamiento. Una misma arquitectura puede aprender a reconocer objetos en imágenes, traducir textos entre idiomas, identificar enfermedades a partir de pruebas médicas o mantener una conversación con un usuario. No porque haya sido programada específicamente para cada una de esas tareas, sino porque ha aprendido patrones diferentes modificando sus conexiones internas.</p>
+<p>Comprender esta idea resulta fundamental para entender la evolución reciente de la Inteligencia Artificial. Sin embargo, todavía queda una pregunta por responder. Si una red neuronal contiene millones o incluso miles de millones de pesos, ¿cómo consigue ajustarlos para aprender sin que un ingeniero tenga que modificarlos uno a uno?</p>
 </section>
-<section id="mucho-más-que-predecir-palabras" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="mucho-más-que-predecir-palabras"><span class="header-section-number">1.2</span> Mucho más que predecir palabras</h2>
-<p>Con frecuencia se afirma que un LLM simplemente predice la siguiente palabra.</p>
-<p>Aunque esta afirmación es técnicamente cierta, resulta insuficiente para comprender su verdadero comportamiento.</p>
-<p>Durante el entrenamiento el modelo no memoriza únicamente secuencias de palabras.</p>
-<p>Aprende relaciones entre conceptos.</p>
-<p>Aprende estilos de escritura.</p>
-<p>Aprende estructuras sintácticas.</p>
-<p>Aprende asociaciones entre ideas.</p>
-<p>Aprende patrones presentes en millones de documentos.</p>
-<p>Como consecuencia de ese aprendizaje aparecen capacidades que nunca fueron programadas explícitamente.</p>
-<p>El modelo puede resumir documentos, traducir idiomas, generar código, redactar informes, explicar conceptos complejos o responder preguntas sobre temas muy diversos sin que exista un algoritmo específico para cada una de estas tareas.</p>
+<section id="cómo-aprende-una-red-neuronal" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="cómo-aprende-una-red-neuronal"><span class="header-section-number">1.2</span> ¿Cómo aprende una red neuronal?</h2>
+<p>Una red neuronal aprende mediante un proceso iterativo de prueba y error. Durante el entrenamiento recibe un gran número de ejemplos, genera una respuesta para cada uno de ellos y la compara con el resultado esperado. Si la respuesta es correcta, apenas realiza cambios. Si se ha equivocado, modifica ligeramente los pesos de sus conexiones para intentar reducir ese error en la siguiente ocasión.</p>
+<p>Este proceso se repite miles, millones o incluso miles de millones de veces. Cada modificación individual es prácticamente insignificante, pero la acumulación de todos esos pequeños ajustes termina construyendo un modelo capaz de reconocer patrones muy complejos.</p>
+<p>La clave del aprendizaje no consiste en memorizar los ejemplos utilizados durante el entrenamiento, sino en encontrar una configuración de pesos que permita responder correctamente también ante datos nuevos. Dicho de otro modo, la red no aprende respuestas concretas, sino las relaciones matemáticas que existen entre los datos.</p>
+<p>Todo este proceso se realiza de forma automática mediante algoritmos de optimización que calculan cómo deben modificarse los pesos para reducir progresivamente el error. Aunque la base matemática que lo hace posible es compleja, desde el punto de vista conceptual la idea resulta sencilla: la red prueba, mide el error, ajusta sus conexiones y vuelve a intentarlo una y otra vez hasta que alcanza un resultado satisfactorio.</p>
+<p>Este mecanismo de aprendizaje, combinado con grandes cantidades de datos y una enorme capacidad de cálculo, es el que ha convertido a las redes neuronales profundas en la base de la mayoría de los sistemas modernos de Inteligencia Artificial.</p>
 </section>
-<section id="el-gran-cambio-de-paradigma" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="el-gran-cambio-de-paradigma"><span class="header-section-number">1.3</span> El gran cambio de paradigma</h2>
-<p>Hasta este momento todos los paradigmas estudiados compartían una característica común.</p>
-<p><strong>El conocimiento residía en el programa.</strong></p>
-<p>El desarrollador analizaba el problema.</p>
-<p>Diseñaba un algoritmo.</p>
-<p>Lo implementaba mediante un lenguaje de programación.</p>
-<p>Y el ordenador ejecutaba exactamente ese conocimiento.</p>
-<p>Con los Large Language Models esta situación cambia radicalmente.</p>
-<blockquote class="blockquote">
-<p><strong>El conocimiento deja de residir exclusivamente en el programa.</strong></p>
-<p><strong>Una parte fundamental del conocimiento reside ahora en el modelo.</strong></p>
-</blockquote>
-<p>Esta diferencia transforma profundamente la Ingeniería del Software.</p>
-<p>El ingeniero ya no necesita construir desde cero todos los algoritmos necesarios para resolver un problema.</p>
-<p>Puede aprovechar el conocimiento previamente aprendido por el modelo y concentrarse en definir correctamente el objetivo que desea alcanzar.</p>
-</section>
-<section id="del-desarrollo-al-aprovechamiento-del-conocimiento" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="del-desarrollo-al-aprovechamiento-del-conocimiento"><span class="header-section-number">1.4</span> Del desarrollo al aprovechamiento del conocimiento</h2>
-<p>Durante más de cincuenta años, el trabajo del ingeniero consistió principalmente en transformar conocimiento humano en algoritmos ejecutables.</p>
-<p>Cada nueva funcionalidad requería diseñar nuevas estructuras de datos, nuevas reglas y nuevos procedimientos.</p>
-<p>Con los Large Language Models aparece una nueva posibilidad.</p>
-<p>Una parte importante del conocimiento ya existe antes de comenzar el desarrollo del software.</p>
-<p>El trabajo del ingeniero deja de centrarse exclusivamente en implementar conocimiento y comienza también a consistir en seleccionar, orientar y aprovechar el conocimiento previamente aprendido por el modelo.</p>
-<p>Este cambio no elimina la necesidad de diseñar software.</p>
-<p>Al contrario.</p>
-<p>Hace todavía más importante comprender el problema, definir correctamente el contexto, establecer restricciones adecuadas y validar críticamente los resultados obtenidos.</p>
-</section>
-<section id="un-nuevo-papel-para-el-ingeniero" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="un-nuevo-papel-para-el-ingeniero"><span class="header-section-number">1.5</span> Un nuevo papel para el ingeniero</h2>
-<p>Los Large Language Models no sustituyen a la Ingeniería del Software.</p>
-<p>Transforman su papel.</p>
-<p>El ingeniero continúa siendo responsable de comprender el problema, definir la arquitectura del sistema, establecer los criterios de calidad y validar las soluciones obtenidas.</p>
-<p>Lo que cambia es la naturaleza de las herramientas disponibles.</p>
-<p>Por primera vez en la historia de la informática, el desarrollador trabaja con un sistema que incorpora una enorme cantidad de conocimiento previamente aprendido.</p>
-<p>Ya no programa únicamente instrucciones.</p>
-<p>Colabora con un modelo capaz de aportar parte del conocimiento necesario para resolver el problema.</p>
-</section>
-<section id="el-siguiente-paso" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="el-siguiente-paso"><span class="header-section-number">1.6</span> El siguiente paso</h2>
-<p>Comprender qué es un Large Language Model constituye únicamente el primer paso.</p>
-<p>La siguiente cuestión resulta todavía más interesante.</p>
-<p>¿Cómo puede un modelo matemático aprender semejante cantidad de conocimiento a partir de millones de documentos?</p>
-<p>Responder a esta pregunta exige estudiar la arquitectura que hizo posible esta revolución.</p>
-<p>En el siguiente apartado analizaremos los <strong>Transformers</strong>, la arquitectura sobre la que se construyen prácticamente todos los Large Language Models actuales.</p>
+<section id="siguiente-paso" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="siguiente-paso"><span class="header-section-number">1.3</span> Siguiente paso</h2>
+<p>A medida que las redes neuronales aumentaban de tamaño comenzaron a aparecer capacidades que antes parecían inalcanzables. Ya no solo reconocían imágenes o clasificaban datos. También empezaban a comprender relaciones complejas entre palabras, frases y documentos completos. Aquello abrió el camino hacia una nueva generación de modelos conocidos como Large Language Models (LLM).</p>
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-hinton2006" class="csl-entry" role="listitem">
+Hinton, Geoffrey E., y Ruslan R. Salakhutdinov. 2006. <span>«Reducing the Dimensionality of Data with Neural Networks»</span>. <em>Science</em> 313 (5786): 504-7. <a href="https://doi.org/10.1126/science.1127647">https://doi.org/10.1126/science.1127647</a>.
+</div>
+<div id="ref-krizhevsky2012" class="csl-entry" role="listitem">
+Krizhevsky, Alex, Ilya Sutskever, y Geoffrey E. Hinton. 2012. <span>«ImageNet Classification with Deep Convolutional Neural Networks»</span>. <em>Advances in Neural Information Processing Systems 25 (NeurIPS 2012)</em>.
+</div>
+<div id="ref-lecun1989" class="csl-entry" role="listitem">
+LeCun, Yann, Bernhard Boser, John S. Denker, et&nbsp;al. 1989. <span>«Backpropagation Applied to Handwritten Zip Code Recognition»</span>. <em>Neural Computation</em> 1 (4): 541-51. <a href="https://doi.org/10.1162/neco.1989.1.4.541">https://doi.org/10.1162/neco.1989.1.4.541</a>.
+</div>
+<div id="ref-mcculloch1943" class="csl-entry" role="listitem">
+McCulloch, Warren S., y Walter Pitts. 1943. <span>«A Logical Calculus of the Ideas Immanent in Nervous Activity»</span>. <em>The Bulletin of Mathematical Biophysics</em> 5 (4): 115-33. <a href="https://doi.org/10.1007/BF02478259">https://doi.org/10.1007/BF02478259</a>.
+</div>
+<div id="ref-minsky1969" class="csl-entry" role="listitem">
+Minsky, Marvin, y Seymour Papert. 1969. <em>Perceptrons: An Introduction to Computational Geometry</em>. MIT Press.
+</div>
+<div id="ref-rosenblatt1958" class="csl-entry" role="listitem">
+Rosenblatt, Frank. 1958. <span>«The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain»</span>. <em>Psychological Review</em> 65 (6): 386-408. <a href="https://doi.org/10.1037/h0042519">https://doi.org/10.1037/h0042519</a>.
+</div>
+<div id="ref-rumelhart1986" class="csl-entry" role="listitem">
+Rumelhart, David E., Geoffrey E. Hinton, y Ronald J. Williams. 1986. <span>«Learning Representations by Back-Propagating Errors»</span>. <em>Nature</em> 323 (6088): 533-36. <a href="https://doi.org/10.1038/323533a0">https://doi.org/10.1038/323533a0</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
