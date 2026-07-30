@@ -1,5 +1,5 @@
 ---
-title: "Large Language Models"
+title: "Introducción"
 ---
 
 
@@ -7,11 +7,9 @@ title: "Large Language Models"
 
 ## Introducción
 
-Los Large Language Models (LLM) representan uno de los cambios más importantes en la historia reciente de la Ingeniería del Software. Sin embargo, para comprender realmente su impacto no basta con estudiar su funcionamiento interno.
+Los Large Language Models (LLM) representan uno de los cambios más importantes en la historia reciente de la Ingeniería del Software. Sin embargo, para comprender realmente su impacto no basta con estudiar su funcionamiento interno, antes debemos entender **qué problema intentan resolver** y **por qué los modelos tradicionales de programación resultaban insuficientes para determinadas clases de problemas**.
 
-Antes debemos entender **qué problema intentan resolver** y **por qué los modelos tradicionales de programación resultaban insuficientes para determinadas clases de problemas**.
-
-Este capítulo propone un recorrido progresivo. Comenzaremos revisando cómo hemos construido software durante más de medio siglo, analizaremos las limitaciones de ese paradigma y seguiremos la evolución que condujo al desarrollo de los modelos actuales.
+Este capítulo propone un recorrido progresivo, comenzaremos revisando cómo hemos construido software durante más de medio siglo, analizaremos las limitaciones de ese paradigma y seguiremos la evolución que condujo al desarrollo de los modelos actuales.
 
 El objetivo no es aprender a utilizar un LLM, sino comprender el cambio conceptual que introduce en la forma de diseñar sistemas software.
 
